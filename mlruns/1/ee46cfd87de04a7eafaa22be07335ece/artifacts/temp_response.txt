@@ -1,0 +1,13 @@
+K-mean's algorithm is an unsupervised machine learning method that helps to find the optimal number of clusters in a dataset. It is based on the concept of maximizing variance among the clusters, which leads to finding the most appropriate number of clusters for a given data set. Here are the basic steps involved in this process:
+
+1. Define k as the desired number of clusters.
+
+2. Divide the dataset into k+1 groups (increase one group at a time) using any method such as medians, means, or mode.
+
+3. Calculate the pairwise distances between each data point in each group and all other data points. This will produce a distance matrix.
+
+4. Repeat step 2 until the distance matrix has no positive correlation with itself (i.e., no negative cycle). In this case, k is the smallest value that minimizes the distance matrix's sum of squares.
+
+5. Choose the final cluster labels based on the maximum value in each group and the remaining minimum values. This will be the final k-mean clustering result.
+
+Explanation: K-mean's algorithm works by finding the optimal number of clusters, which is defined as the smallest number that maximizes the variance among the groups (i.e., minimizing the distance matrix's sum of squares). This process can be repeated until the distance matrix has no negative correlation with itself, and then cluster labels are determined based on the maximum value in each group and remaining minimum values.

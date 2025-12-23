@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "What are fossil fuels?",
+    "category": "general",
+    "complexity": "low"
+  },
+  {
+    "prompt": "How does photosynthesis work?",
+    "category": "general",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Explain k-means clustering.",
+    "category": "data_science",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "Write a haiku about coding.",
+    "category": "creative",
+    "complexity": "low"
+  },
+  {
+    "prompt": "How do I sort a list in Python?",
+    "category": "coding",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What are lambda functions?",
+    "category": "coding",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Explain machine learning in simple terms.",
+    "category": "technical",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "Explain the concept of ROI.",
+    "category": "business",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "Suggest innovative app ideas.",
+    "category": "creative",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is supply chain management?",
+    "category": "business",
+    "complexity": "low"
+  }
+]

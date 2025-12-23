@@ -1,0 +1,15 @@
+K-means clustering is an unsupervised machine learning algorithm that uses multiple centroids (or means) to group data points into k distinct clusters, where k is a specified number of clusters. It involves iteratively updating the centroids until convergence or a prescribed stopping criterion is reached. Here's how it works:
+
+1. Initialization: The algorithm begins by assigning each data point to the nearest centroid. Let xi be the i-th data point and let ck be its k-th closest centroid.
+
+2. Calculate distances: For each data point, calculate the distance between it and its closest centroid.
+
+3. Update centroids: Based on the calculated distances, update the centroids of each cluster until convergence or a stopping criterion is reached.
+
+4. Update centroids: For each cluster, find the average of the k-1 nearest centroids.
+
+5. Repeat: Repeat steps 3-5 for as many iterations as needed until convergence or a stopping criterion is met.
+
+6. Assign data points to clusters: The algorithm assigns each data point to the cluster with the highest similarity to its most similar center, which is determined by the last iteration's average centroid.
+
+Overall, k-means clustering aims to find the optimal set of k centroids that best represents the data points. The choice of k depends on the problem at hand and can be tuned using cross-validation or other techniques.

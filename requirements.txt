@@ -1,0 +1,28 @@
+﻿# Core LLM and ML Libraries
+langchain==0.1.0
+langchain-community==0.0.13
+ollama==0.1.6
+
+# Kafka
+kafka-python==2.0.2
+
+# MLflow
+mlflow==2.9.2
+
+# Evidently (fixed version)
+evidently==0.4.11
+
+# Streamlit
+streamlit==1.29.0
+plotly==5.18.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.2
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Utilities
+python-dateutil==2.8.2

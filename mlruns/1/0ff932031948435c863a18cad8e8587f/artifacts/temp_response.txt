@@ -1,0 +1,3 @@
+LaMBA (Lambda Functions):
+
+Lambda functions are specialized functions designed to run on-demand, or as a response to input received from an event source such as an API or database. They are commonly used in serverless architectures because they can be easily scaled up and down based on the demand of the application. Lambda functions are written using JavaScript or other programming languages and provide a flexible and cost-effective way for developers to run code that handles specific event types without having to build and manage servers. They also offer significant performance benefits, as they can handle large amounts of data quickly and efficiently.

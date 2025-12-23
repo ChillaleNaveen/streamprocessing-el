@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/255294869654801478/4932c7312e1544229c7a4edda090a85d/artifacts
+end_time: 1766479996433
+entry_point_name: ''
+experiment_id: '255294869654801478'
+lifecycle_stage: active
+run_id: 4932c7312e1544229c7a4edda090a85d
+run_name: llm-b63e2690
+run_uuid: 4932c7312e1544229c7a4edda090a85d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766479994133
+status: 3
+tags: []
+user_id: cnave

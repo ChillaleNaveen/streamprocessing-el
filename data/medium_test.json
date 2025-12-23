@@ -1,0 +1,252 @@
+[
+  {
+    "prompt": "Suggest a name for a coding bootcamp.",
+    "category": "creative",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is overfitting in machine learning?",
+    "category": "data_science",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is a minimum viable product?",
+    "category": "business",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Create an analogy for APIs.",
+    "category": "creative",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Create a metaphor for cloud computing.",
+    "category": "creative",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Explain agile methodology.",
+    "category": "business",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "How do vaccines work?",
+    "category": "general",
+    "complexity": "low"
+  },
+  {
+    "prompt": "How do you handle missing data?",
+    "category": "data_science",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is test-driven development?",
+    "category": "technical",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What are the benefits of cloud computing?",
+    "category": "technical",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is the difference between is and ==?",
+    "category": "coding",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "How do I use regular expressions?",
+    "category": "coding",
+    "complexity": "low"
+  },
+  {
+    "prompt": "How do I read a CSV file in Python?",
+    "category": "coding",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Write a Python function to reverse a string.",
+    "category": "coding",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Explain the bias-variance tradeoff.",
+    "category": "data_science",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "Explain containerization and Docker.",
+    "category": "technical",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "What is the purpose of normalization?",
+    "category": "data_science",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is artificial intelligence?",
+    "category": "technical",
+    "complexity": "low"
+  },
+  {
+    "prompt": "How do I work with JSON in Python?",
+    "category": "coding",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is the difference between AI and ML?",
+    "category": "technical",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "What is the greenhouse effect?",
+    "category": "general",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Suggest a creative team name for developers.",
+    "category": "creative",
+    "complexity": "low"
+  },
+  {
+    "prompt": "How does DNA replication work?",
+    "category": "general",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Explain the concept of ROI.",
+    "category": "business",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "How does gradient descent work?",
+    "category": "data_science",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is database normalization?",
+    "category": "technical",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What causes climate change?",
+    "category": "general",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Suggest creative ways to explain algorithms.",
+    "category": "creative",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "What are lambda functions?",
+    "category": "coding",
+    "complexity": "low"
+  },
+  {
+    "prompt": "How does the human immune system work?",
+    "category": "general",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Explain decorators in Python.",
+    "category": "coding",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "What is sustainable development?",
+    "category": "general",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is continuous integration?",
+    "category": "technical",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Explain k-means clustering.",
+    "category": "data_science",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "Create a metaphor for debugging.",
+    "category": "creative",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Write a short description of future technology.",
+    "category": "creative",
+    "complexity": "low"
+  },
+  {
+    "prompt": "How does encryption work?",
+    "category": "technical",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is dimensionality reduction?",
+    "category": "data_science",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is renewable energy?",
+    "category": "general",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is market segmentation?",
+    "category": "business",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Explain REST APIs.",
+    "category": "technical",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "Write a slogan for a tech startup.",
+    "category": "creative",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Explain the water cycle.",
+    "category": "general",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "Explain the difference between classification and regression.",
+    "category": "data_science",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "How do you measure customer satisfaction?",
+    "category": "business",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is A/B testing?",
+    "category": "data_science",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Create a tagline for an AI product.",
+    "category": "creative",
+    "complexity": "low"
+  },
+  {
+    "prompt": "Explain machine learning in simple terms.",
+    "category": "technical",
+    "complexity": "medium"
+  },
+  {
+    "prompt": "What are design patterns in software?",
+    "category": "technical",
+    "complexity": "low"
+  },
+  {
+    "prompt": "What is business intelligence?",
+    "category": "business",
+    "complexity": "low"
+  }
+]

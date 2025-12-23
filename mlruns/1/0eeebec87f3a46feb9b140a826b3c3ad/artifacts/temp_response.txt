@@ -1,0 +1,15 @@
+ROI (return on investment) is a metric used to measure the success or profitability of an investment or business strategy. In simple terms, it measures how much money generated from an investment (e.g., marketing campaigns, product launches, etc.) exceeds the initial investment cost.
+
+ROI calculates the profit generated from a project relative to its total costs, including any upfront expenses such as setup or advertising. The formula for calculating ROI is:
+
+(Profit - Costs) ÷ Costs
+
+For example, let's say you run a marketing campaign that costs $10,000 and generates $5,000 in revenue within the first month. Your ROI is calculated as follows:
+
+(Income from Marketing Campaign - Total Investment) ÷ Total Investment
+= (Income from Marketing Campaign - $10,000) ÷ $10,000
+= (5,000 - $10,000) ÷ $10,000
+= (5,000 - $5,000) / $10,000
+= 1.5
+
+ROI calculates the profit generated relative to the initial investment or costs. The higher ROI is, the better the investment returns were for the business or project. This metric can be used to measure the effectiveness of a marketing campaign and determine whether it was worthwhile in terms of generating revenue.

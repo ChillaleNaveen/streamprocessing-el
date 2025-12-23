@@ -1,0 +1,18 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  request_topic: "llm-requests"
+  response_topic: "llm-responses"
+
+ollama:
+  model_name: "tinyllama"  # Changed to fastest model
+  base_url: "http://localhost:11434"
+  temperature: 0.7
+  max_tokens: 200  # Reduced for faster responses
+
+mlflow:
+  tracking_uri: "http://localhost:5000"
+  experiment_name: "llm-monitoring-experiment"
+
+evidently:
+  report_path: "./reports"
+  batch_size: 50
