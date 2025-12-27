@@ -1,0 +1,7 @@
+Sure, I'll give an overview of Agile methodology in a few sentences:
+
+Agile methodology is a set of iterative and incremental software development practices that emphasize customer feedback, collaboration, and agility. It involves working in small teams, breaking down larger projects into smaller, more manageable tasks, and regularly testing and improving the product or service being developed. 
+
+Agile methods are based on the principles of Lean and Six Sigma, which aim to streamline processes, reduce waste and improve efficiency. They prioritize customer feedback, continuous learning and innovation, and adaptability in the face of changing requirements. Agile methodology encourages an open communication process between team members, with frequent check-ins, sprint planning, and retrospectives to evaluate progress and identify areas for improvement. 
+
+Agile is a relatively new approach to software development that has gained widespread popularity in recent years due to its success in achieving high-quality, user-friendly products. It's an ideal methodology for teams working on large or complex projects as it encourages collaboration and flexibility, while also ensuring quality and timely delivery.

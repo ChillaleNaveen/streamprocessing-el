@@ -1,0 +1,15 @@
+The main difference between append and extend in Python is that appends appends new values to an existing list, while extends extends a list by inserting new elements at the end. Here's an example:
+
+```python
+# Example 1: Appending new values to a list
+a = [1, 2, 3]
+a += [4, 5]
+print(a)
+
+# Example 2: Extending a list by appending new elements at the end
+b = [1, 2]
+b.extend([3, 4])
+print(b)
+```
+
+In Example 1, we append 4 and 5 to an existing list `[1, 2, 3]`. In Example 2, we extend the list with these new values by appending them at the end.

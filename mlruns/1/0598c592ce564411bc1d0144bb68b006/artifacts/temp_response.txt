@@ -1,0 +1,5 @@
+Object-oriented programming (OOP) is a software development approach that focuses on designing and building applications using objects as the main entities. OOP allows developers to structure their code in an organized way, with each object representing a separate entity or concept. The key features of OOP include encapsulation, inheritance, polymorphism, and abstraction.
+
+Encapsulation ensures that only data and functions related to an object are exposed to the outside world. For instance, an object may have private fields for storing user data or methods for performing specific tasks. Inheritance enables developers to create subclasses of objects that inherit certain properties from their parents. Polymorphism allows multiple instances of the same class to be created and handled in different ways depending on the context. Finally, abstraction is used to group related object behaviors into a single unit of code, making them easier to maintain and understand.
+
+In summary, OOP separates code into objects with separate functions or properties, allowing developers to create more modular and maintainable applications.

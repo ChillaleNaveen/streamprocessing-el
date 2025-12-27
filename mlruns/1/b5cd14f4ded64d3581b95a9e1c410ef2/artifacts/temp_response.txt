@@ -1,0 +1,9 @@
+Object-oriented programming (OOP) is a way of structuring and organizing software systems based on objects, or entities, that have properties and behaviors defined by their relationships with each other. The goal of OOP is to provide a clear and consistent representation of these relationships, enabling developers to write code that is easy to understand, maintain, and extend.
+
+In OOP, classes are the fundamental building blocks of an object-oriented system. Classes represent objects and their properties and behaviors. They have methods (or functions) that allow them to interact with each other and other parts of the system. 
+
+OOP allows developers to write code in a clear and structured way, by defining relationships between classes and their subclasses (sub-objects), using inheritance. Inheritance is how superclasses extend their properties and behaviors to create new subclasses, which are then used to create new objects. 
+
+Another important aspect of OOP is encapsulation, which allows developers to hide data and behavior from outside the system, so that only authorized users can access them. Encapsulation is achieved through private attributes and methods, which allow these elements to be accessed only within the class they belong to. This is called encapsulation, and it helps protect sensitive data or functionality from being exposed to other parts of the system.
+
+Overall, OOP provides developers with a comprehensive and flexible way of organizing software systems based on objects that can interact with each other. It promotes clear and readable code, easy maintenance, and easy extension and customization.

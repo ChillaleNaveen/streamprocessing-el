@@ -1,0 +1,7 @@
+AI (Artificial Intelligence) and ML (Machine Learning) are two different terms used to refer to the same field of computing, which involves using algorithms and technology to model and analyze data. Here's a brief explanation of each term:
+
+AI: Artificial intelligence is the ability of machines to exhibit or imitate intelligent behavior based on experience and learning. It can be applied in various industries such as healthcare, finance, and manufacturing, among others. AI systems are designed to perform tasks that require human intelligence, such as decision-making, problem-solving, and communication.
+
+ML (Machine Learning): Machine learning is the process of teaching a machine or computer system to learn from data without explicitly programming it with rules or instructions. ML algorithms are trained using large datasets to identify patterns and make predictions based on new data. For instance, in the field of healthcare, ML algorithms can be used for drug discovery, disease prediction, and patient diagnosis.
+
+In summary, AI refers to the use of algorithms to process and analyze large amounts of data, while ML is the application of machine learning techniques to build algorithms that can learn from data and make predictions or decisions.

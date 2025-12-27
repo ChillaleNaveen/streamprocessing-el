@@ -1,0 +1,13 @@
+Object-oriented programming (OOP) is a software development methodology that encourages the use of objects, which are data containers that can have properties and methods. It provides a way to structure code for reuse and maintainability. OOP allows developers to write clear and maintainable code by breaking down large programs into smaller, self-contained units called classes. These classes contain data, methods (functions), and properties, making them reusable and easy to understand.
+
+The benefits of using OOP include:
+
+1. Maintainability: OOP makes it easier to write maintainable code by breaking down large programs into smaller, self-contained units.
+
+2. Reusability: Classes are reusable units that can be used independently or combined to create more complex software systems.
+
+3. Readability: OOP provides a clear and organized structure for code, making it easier to understand and modify.
+
+4. Testability: Classes provide a testing framework for ensuring the correctness of the program's functionality.
+
+Overall, OOP is a powerful methodology for writing efficient and maintainable software systems.

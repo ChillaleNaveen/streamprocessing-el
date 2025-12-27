@@ -1,0 +1,37 @@
+To use regular expressions in Python, you can follow these steps:
+
+1. Import re:
+```python
+import re
+```
+
+2. Create a regular expression object using the "re" module:
+```python
+re_pattern = re.compile('regex_expression', re.I) # allow case insensitivity
+```
+
+3. Use the "match" method to find matches for the pattern within a string or string portion:
+```python
+string = 'hello, world!'
+matches = re_pattern.findall(string)
+print(matches) # ['hello', 'world']
+```
+
+4. Customize the pattern and match options using the "compile" method before calling "match":
+```python
+import re
+
+re_pattern = re.compile('regex_expression', re.I | re.M)
+matches = re_pattern.findall(string)
+print(matches) # ['hello', 'world']
+```
+
+5. Handle multiple matches using the "group" method:
+```python
+import re
+
+re_pattern = re.compile('(\w+)\s+(\d+)')
+match = re_pattern.search('John has 200 years of experience in the industry.')
+print(match.group(1)) # 'John'
+print(match.group(2)) # 200
+```

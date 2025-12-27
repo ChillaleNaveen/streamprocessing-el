@@ -1,0 +1,15 @@
+Sure! The water cycle is a continuous process that involves evaporation, precipitation, runoff, and infiltration of water back into the Earth's surface.
+
+During the daytime, when the Sun shines upon the Earth, the sky turns blue due to the absorption of sunlight by the oceans. The ocean then sends this energy towards the land, where it is converted into heat through evaporation. This evaporation process occurs in two ways:
+
+1. Convection: In a thunderstorm, the moist air rises and condenses into clouds, which eventually fall back to Earth as rain or snow. During this process, warm, moist air is replaced by cooler, dry air.
+
+2. Latent Heat: As water vapor condenses from the ocean, it releases latent heat, which causes the liquid to move upwards towards the surface of the land. This heat transfer causes the water to rise into the atmosphere, where it rises through convection and eventually cools, turning back into liquid form, i.e., rain or snow.
+
+During the nighttime, when there is no sunlight, evaporation rates increase as warm air rises and cools. This process occurs in two ways:
+
+1. Convection: In a thunderstorm, cold, moist air rises and condenses into clouds, which eventually fall back to Earth as rain or snow. During this process, cooler, dry air is replaced by warm, humid air, causing the liquid to move downwards towards the surface of the land.
+
+2. Latent Heat: As water vapor condenses from the land, it releases latent heat, which causes the liquid to move back upwards into the atmosphere, where it cools and turns back into liquid form, i.e., rain or snow.
+
+Overall, these two processes occur in tandem, with evaporation increasing as temperatures rise, while condensation occurs at night due to cooler temperatures, causing precipitation.

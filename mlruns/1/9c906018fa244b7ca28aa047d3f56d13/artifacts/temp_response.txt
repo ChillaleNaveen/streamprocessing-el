@@ -1,0 +1,39 @@
+Pyton generators, also known as iterators or generators in Python, allow you to create iterable objects that can return a sequence of elements continuously. Here's how it works:
+
+1. Define a Generator function:
+To define a generator function, you need to create an object that has a `yield` keyword to represent the starting point and the `__next__` method to retrieve the next element. Here's an example:
+```python
+def multiply(x):
+    while True:
+        yield x * 2
+
+for num in multiply(10):
+    print(num)
+```
+
+In this code snippet, we create a generator function `multiply` that takes an integer as input and returns an infinite sequence of numbers. Here's how the `__next__` method works:
+```python
+def __next__(self):
+    if self.closed:
+        raise StopIteration()
+    else:
+        num = self.gen.send(None)
+        self.closed = True
+        return num
+```
+
+2. Create an Iterator object:
+To create an iterator object, you need to call the `__next__` method of the generator function in each iteration. Here's how it works:
+```python
+for num in multiply(10):
+    print(num)
+```
+In this code snippet, we create a `for` loop that iterates over an infinite sequence of numbers using the generator function. The `__next__` method is called each time an element is needed.
+
+3. Use Generators:
+Finally, to use generators in your Python program, you need to wrap them with a `gen.send(None)` call, which tells the iterator object that it should not wait for the next element. Here's how to do this:
+```python
+for num in multiply(10):
+    print(num)
+```
+In this code snippet, we create an iterator object using the generator function `multiply` and pass it to a `for` loop. The first time through the loop, the `__next__` method is called, which returns an element from the infinite sequence, and the second time it's passed to the for loop again.

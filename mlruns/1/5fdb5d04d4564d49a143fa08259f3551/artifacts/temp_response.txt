@@ -1,0 +1,9 @@
+Answer: 
+
+AI (Artificial Intelligence) and ML (Machine Learning) are two distinct fields of computer science that involve different approaches to artificial intelligence.
+
+AI refers to the study and development of intelligent machines or systems, which can be programmed to perform tasks based on pre-programmed algorithms. It's more focused on hardware and software design, and it aims to create autonomous and autonomic systems.
+
+ML (Machine Learning) is a subfield of AI that focuses on developing algorithms for data analysis and machine learning tasks. ML involves a combination of statistics, mathematics, and computer science, with the aim of creating intelligent machines that can learn from data and make decisions based on it. It's more focused on software design and algorithms, and it aims to create intelligent systems capable of making informed decisions on their own.
+
+In summary: AI is a broader field that involves the development of intelligent machines or systems, while ML focuses on the development of algorithms for machine learning tasks.

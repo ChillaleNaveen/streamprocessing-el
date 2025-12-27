@@ -1,0 +1,13 @@
+K-mean (k-means) cluster is an unsupervised machine learning algorithm that aims to find the optimal grouping or clustering of data points based on similarity or distance between them. It is a popular technique in data analysis and statistics, especially when dealing with high dimensional data. The algorithm works by assigning each point in the dataset to one or more clusters based on its nearest neighbors.
+
+The algorithm consists of three main steps:
+
+1. Preprocessing: The first step involves pre-processing the data by removing any features that are not relevant for cluster assignment, such as missing values, outliers, and high-dimensionality.
+
+2. Initialization: Next, the algorithm initializes a set of k centroids or clusters around each data point.
+
+3. Calculation of distances between points: The algorithm then calculates the Euclidean distance between each data point and each cluster center. This is done using k-neighbors (k-NN) algorithm which returns the jth nearest neighbor of a given data point. The algorithm then selects the centroid with the smallest distance from the given data point as its new cluster center.
+
+The algorithm iterates through all data points and continues to update the clusters and their centers based on the newly selected center. The process repeats until convergence or an acceptable amount of iterations are reached.
+
+In conclusion, k-mean clustering is a powerful unsupervised machine learning technique that can be used in various applications such as image classification, medical imaging, and content analysis.

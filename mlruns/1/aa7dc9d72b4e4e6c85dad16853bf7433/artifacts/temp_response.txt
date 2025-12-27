@@ -1,0 +1,1 @@
+A lambda function is an anonymous function in JavaScript that is defined without a name or variable declaration. It is commonly used as a reusable piece of code that can be used to perform operations, check conditions, or handle events within larger code blocks. In some cases, lambdas can also be used as a way to create immutable values and data structures within JavaScript.

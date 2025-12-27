@@ -1,0 +1,40 @@
+Sure, I'd be happy to explain decorators in Python. Decorators are a type of decorator function that is defined inside another function. They allow you to add functionality to existing functions or classes by wrapping them into new functions. In Python, decorators can be used for various purposes such as adding metadata to objects or providing additional methods on top of existing ones. Here's an example:
+
+```python
+class Person(object):
+    def __init__(self, name, age):
+        self._name = name
+        self._age = age
+
+    @property
+    def name(self):
+        return self._name
+    
+    def get_age(self):
+        return self._age
+
+# Define a custom decorator to add name and age information to the Person object
+def set_info(func):
+    def wrapper(*args, **kwargs):
+        new_args = [k + (f"_{i+1} {v}" if i > 0 else f"{v}") for k, v in kwargs.items()]
+        return func(*new_args, **kwargs)
+    return wrapper
+
+# Define another function with decorator applied
+def get_info(func):
+    def wrapper(*args, **kwargs):
+        new_args = [k + (f"_{i+1} {v}" if i > 0 else f"{v}") for k, v in kwargs.items()]
+        return func(*new_args, **kwargs)
+    return wrapper
+
+# Test the decorator and function with custom info
+person = Person("John", 35)
+print(get_info(set_info)(person.name))
+print(get_info(get_info)(person.age))
+```
+
+In this example, we're creating a new class named Person that has two properties `name` and `age`. We're also defining a custom decorator `set_info`, which takes three arguments: the decorated function, the extra args passed to the decorated function, and the kwargs passed to the decorated function.
+
+The decorator creates a new property called `get_info` that takes two arguments `func` and `new_args`. The decorator returns the decorated function with additional properties added: `name` and `age`. This can be used in any call to the decorated function, including by passing them to `get_info`.
+
+For example, calling `person.get_info(print)` would print `John (35)`.

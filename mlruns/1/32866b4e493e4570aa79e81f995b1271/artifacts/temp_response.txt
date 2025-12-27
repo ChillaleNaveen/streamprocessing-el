@@ -1,0 +1,12 @@
+The main difference between append and extend in Python is that append appends a new value to an existing list, while extend adds all elements of another list or sequence to a given list. Here's an example:
+
+```python
+def insert_at(lst, pos, x):
+    if pos < 0 or pos > len(lst) - 1:
+        raise ValueError("Position out of range")
+    
+    lst[pos] = x
+
+insert_at([1, 2, 3], 1, 4) # raises ValueError
+```
+In the above code snippet, `insert_at` takes a list `lst` and an integer `pos` as arguments. If `pos` is negative or greater than or equal to the length of `lst`, it raises a `ValueError`. Otherwise, it appends `x` at position `pos`.

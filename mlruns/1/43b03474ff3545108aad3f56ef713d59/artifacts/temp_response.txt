@@ -1,0 +1,9 @@
+To sort a list in Python, you can use the built-in "sorted()" function. Here's an example:
+
+```python
+my_list = [10, 5, 2, 8, 4]
+print(sorted(my_list))
+# Output: [2, 4, 5, 8, 10]
+```
+
+In this example, we have a list of integers "my_list", and we use the built-in "sorted()" function to sort them in ascending order. The resulting sorted list will be `[2, 4, 5, 8, 10]`.

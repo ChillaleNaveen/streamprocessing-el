@@ -1,0 +1,7 @@
+AI (Artificial Intelligence) and ML (Machine Learning) are two distinct technologies that differ in their approaches, techniques, and applications. Here's a brief explanation of each:
+
+1. Artificial Intelligence (AI): AI is the technology behind intelligent machines or systems. It involves developing algorithms to mimic human intelligence, such as problem-solving, decision-making, and communication skills. AI is often used in fields such as autonomous vehicles, customer service, and healthcare.
+
+2. Machine Learning (ML): ML is a subset of AI that focuses on teaching machines to learn from data without being explicitly programmed. It enables machines to discover patterns and make decisions based on previous observations. ML allows for automation and self-learning in various applications, such as marketing, finance, and healthcare.
+
+In summary, both AI and ML are powerful tools in today's world that leverage machine learning algorithms to solve complex problems. They differ mainly in their approaches, techniques, and applications.

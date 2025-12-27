@@ -1,0 +1,11 @@
+The main difference between Artificial Intelligence (AI) and Machine Learning (ML) lies in their underlying concepts, principles, and approaches. Here are some of the main differences:
+
+1. Concepts: AI is primarily concerned with building intelligent machines that can perform tasks autonomously or as part of a larger system. It involves designing algorithms that enable machines to learn from data and make decisions based on past experiences.
+
+2. Principles: ML, on the other hand, is focused on learning from large datasets using mathematical models and techniques such as regression, classification, and clustering. It aims to develop algorithms that can predict or classify new data based on previously collected information.
+
+3. Approaches: AI is often developed using formal methods and rigorous mathematical principles, while ML is more empirical and practical. While both approaches are based on data and algorithms, they have different ways of approaching machine learning problems.
+
+4. Goals: AI aims to develop technologies that can make decisions for us, while ML focuses on improving the accuracy and efficiency of decision-making by enabling machines to learn and adapt to complex situations.
+
+5. Industries: AI is primarily used in high-tech industries like finance, healthcare, and automation, whereas ML is widely used across many industries.

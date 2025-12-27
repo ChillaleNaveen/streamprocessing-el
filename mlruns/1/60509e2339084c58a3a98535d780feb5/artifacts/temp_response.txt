@@ -1,0 +1,7 @@
+Cross-validation, also known as split-sample or split-train test, is a statistical technique used in machine learning to evaluate and select models with predictive power. It involves dividing the data into two sets (train and validation), where one set is used for training models and the other set is used for testing them. 
+
+In cross-validation, models are trained on a portion of the dataset that is divided into two subsets: a training set and a validation set. The training set is used to fit the model, while the validation set is used to evaluate its performance on unseen data. This process is repeated for several rounds until the best model or combination of models are obtained. 
+
+Cross-validation helps identify the best model or combination of models by evaluating their performance across different splits (train and validation) of the dataset. It also ensures that the training set represents the distribution of the data, as opposed to a random sample. 
+
+Overall, cross-validation is an important tool for selecting optimal machine learning models, as it helps identify the most predictive features and the best way to interpret results.

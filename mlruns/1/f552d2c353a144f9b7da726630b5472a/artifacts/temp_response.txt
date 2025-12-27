@@ -1,0 +1,5 @@
+ROI (return on investment) is a financial metric that measures the efficiency or profitability of an investment, relative to the amount invested. It is calculated by dividing the net income (i.e., income after taxes and interest expenses) from the investment by the total capital invested.
+
+In simple terms, ROI measures how much revenue or profit a company generates for every dollar spent on an investment. A positive ROI indicates that the investment has generated more revenue than it cost to acquire and operate. On the other hand, if a negative ROI occurs, it means that the investment has not provided enough value to cover its associated costs.
+
+ROI is essential for evaluating the success of an investment and deciding whether to continue or terminate it. Companies use ROI as a tool to measure the efficiency and profitability of their investments, making informed business decisions based on data and analysis.

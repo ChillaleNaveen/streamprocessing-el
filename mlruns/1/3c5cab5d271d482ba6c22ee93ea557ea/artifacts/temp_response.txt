@@ -1,0 +1,15 @@
+To handle exceptions in Python, you can use try-except statements and raise statements. Here's an example:
+
+```python
+try:
+    # code that may throw an exception
+except Exception as e:
+    # catch the exception and log it or print a message
+    print(f"Exception caught: {e}")
+else:
+    # if no exceptions are thrown, this block of code will be executed
+```
+
+This code defines a try-except block with two statements. The first statement tries to run the code inside a try block, but an exception is caught and logged or printed in case of an exception. If there are no exceptions, the second statement executes without any blocks of code. 
+
+In this example, we're catching a `KeyError` exception that occurred when trying to access a dictionary key with an invalid key. By defining the try-except block, we're catching exceptions and log them or printing messages before executing the code inside the try block.

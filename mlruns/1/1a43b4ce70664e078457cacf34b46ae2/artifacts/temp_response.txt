@@ -1,0 +1,11 @@
+Gradient descent is an optimization algorithm that iteratively adjusts the weights (or parameters) of a machine learning model based on the gradients of the loss function with respect to each parameter. Here's how it works:
+
+1. Define the objective function (e.g., loss function) you are optimizing.
+
+2. Calculate the gradient, or derivative, of the objective function with respect to each parameter. This gradient can be calculated using the backpropagation algorithm, which is a common optimization technique used in deep learning and machine learning.
+
+3. Update the weights based on these gradients by subtracting the gradients from their corresponding parameter values.
+
+4. Repeat steps 2-3 until the objective function (or loss) converges or the convergence is impossible.
+
+In summary, gradient descent iteratively adjusts the weights of a machine learning model based on the gradient of the loss function with respect to each weight.

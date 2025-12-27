@@ -1,0 +1,27 @@
+Sure! Here's how to use regular expressions in Python:
+
+1. Import the re module, which is used for regular expression handling:
+
+   ```python
+   import re
+   ```
+
+2. Create a pattern string using regular expression syntax (e.g., `r"pattern"`):
+
+   ```python
+   pattern = r"name\s*=\s*"
+   ```
+
+3. Use the "re.search()" function to search for matches in a given string:
+
+   ```python
+   matches = re.findall(pattern, str_to_search)
+   ```
+
+4. Extract all matching text from the matches list using "re.sub()" to replace it with your desired text:
+
+   ```python
+   new_string = str_to_search.replace(matches[0], "replacement")
+   ```
+
+That's it! You can now use regular expressions in Python and manipulate data as you please.

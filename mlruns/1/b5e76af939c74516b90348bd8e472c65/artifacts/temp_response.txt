@@ -1,0 +1,22 @@
+Yes, of course! Here's how you can use regular expressions in Java:
+
+1. Create a regular expression:
+
+   ```java
+   String regex = "^[0-9]"; // Matches any number from 0 to 9 (exclusive)
+   Pattern pattern = Pattern.compile(regex); // Creates the regular expression using the given regular expression as the pattern
+   Matcher matcher = pattern.matcher("1234"); // Creates a new matcher object with the given regular expression as the pattern and the string "1234" as the input
+   ```
+
+2. Use regular expressions in code:
+
+   ```java
+   String number = "1234"; // A string containing a valid number from 0 to 9 (exclusive)
+   Pattern pattern = Pattern.compile(regex); // Creates the regular expression using the given regular expression as the pattern
+   Matcher matcher = pattern.matcher(number); // Creates a new matcher object with the given regular expression and the string "1234" as the input
+   if (matcher.matches()) {
+     System.out.println("The entered number is valid!");
+   } else {
+     System.out.println("Invalid input! The entered number is not a valid number from 0 to 9 (exclusive).");
+   }
+   ```

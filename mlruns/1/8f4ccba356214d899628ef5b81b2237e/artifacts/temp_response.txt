@@ -1,0 +1,15 @@
+K-mean's clustering is a popular clustering technique used in machine learning and data analysis. It is a non-euclidean metric that groups similar data points together based on their similarity to a specified center (or mean) within the data set. K-means algorithm works by iteratively selecting and updating each point's cluster until all points are assigned to their respective clusters. The process involves:
+
+1. Preparing the dataset: Divide the dataset into equal parts (k=2 or k=k+1) based on the number of data points in each group.
+
+2. Calculating Euclidean distance: Compute Euclidean distance between all points in a cluster and the center. The distance between any two points is the length of the shortest path between them through the dataset, which can be calculated using the Manhattan distance formula.
+
+3. Initializing clusters: Choose k initial centroids for each cluster based on their Euclidean distances from the center.
+
+4. Calculating average of centroids: For each point in a given data set, calculate the average of all its neighbors' (k-1) centroids to update the mean.
+
+5. Updating clusters: Find the k centroids with the highest Euclidean distance from the current cluster center and update them.
+
+6. Repeating steps 2-4 until all data points are assigned to their respective clusters.
+
+The k-mean clustering is an unsupervised algorithm, meaning that it doesn't require any labeled or preprocessed data to function properly. The resulting clusters provide a visual representation of the data and can be used for various applications such as disease classification, anomaly detection, and recommendation systems.

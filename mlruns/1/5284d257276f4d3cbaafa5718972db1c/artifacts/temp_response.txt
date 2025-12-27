@@ -1,0 +1,21 @@
+The confusion matrix is a visual representation of how a model classifies or predicts different classes based on their true labels. It helps in understanding which inputs are predicted as "true positives" (TPs), which are predicted as "false negatives" (FNs), and which are predicted as "false positives" (FPs).
+
+The confusion matrix consists of two matrices, a confusion matrix for the input (X) data and a prediction matrix (P). Each row represents one class, and each column represents one test sample. For example, let's say we have two classes: A and B, where A is predicted as "true positive" and B is predicted as "false positive".
+
+The confusion matrix for X can be calculated using the following formula:
+
+| true positive | false negative  | false positive | total |
+|---------------|-----------------|---------------|-------|
+| A             | 1                | 0              | A    |
+| B             | 0                | 1              | B    |
+| P             | TP               | FN              | TP+FN |
+
+The confusion matrix for P can be calculated using the following formula:
+
+| predicted positive | true negative | false negative | total |
+|-------------------|---------------|----------------|-------|
+| A                 | 0              | 1               | A    |
+| B                 | 1              | 0              | B    |
+| P                | TP             | FN              | TP+FN |
+
+where P represents the prediction and TP, FN, and TP+FN represent true positive, false negative, and true positive + false negative, respectively.

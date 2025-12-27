@@ -1,0 +1,17 @@
+Difference Between AI (Artificial Intelligence) and ML (Machine Learning):
+
+AI is an umbrella term for various sub-fields in computer science, including machine learning. In contrast, ML is a subset of AI that deals with the development, optimization, and analysis of algorithms designed to perform tasks based on data input. Here are some key differences between AI and ML:
+
+1. Application areas: AI has been used extensively in various domains such as healthcare, finance, marketing, and transportation. On the other hand, ML is primarily used in fields like image recognition, natural language processing, and recommendation engines.
+
+2. Input data: AI requires labeled or structured data while ML often works with unstructured or semi-structured data.
+
+3. Output data: Unlike AI, where the output can be only a single value or a set of values, ML algorithms return multiple outputs (e.g., predicting customer buying behavior). 
+
+4. Predictive modeling: Unlike traditional regression models used in AI, ML predictive models are designed to forecast future outcomes based on historical data.
+
+5. Data collection and preparation: In the context of AI, data collection and preparation typically involves collecting large amounts of raw data from various sources, cleaning, preprocessing, and labeling it. In contrast, ML algorithms rely heavily on pre-trained models that have been trained using labeled data.
+
+6. Computing resources: The computing power required for AI is often enormous, making it impractical to use in some domains such as gaming or autonomous vehicles. On the other hand, ML requires relatively low computing resources compared to AI, which makes it ideal for many applications in the real world.
+
+In summary, while both AI and ML are important sub-fields of computer science, they have distinct areas of application and data inputs/outputs.

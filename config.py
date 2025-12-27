@@ -63,7 +63,7 @@ class PerformanceConfig:
     """Performance tuning for HP Pavilion i5-1240P"""
     max_concurrent_requests: int = 5  # Limit concurrent LLM calls
     request_delay: float = 3.0  # Seconds between requests
-    consumer_timeout_ms: int = 1000  # Kafka consumer timeout
+    consumer_timeout_ms: int = -1  # Kafka consumer timeout (-1 = wait indefinitely)
     enable_caching: bool = False  # Disable caching to save memory
     
 @dataclass

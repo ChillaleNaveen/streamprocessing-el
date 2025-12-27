@@ -1,0 +1,19 @@
+Yes, I can provide you with a Python function that reverses a given string. Here's an example:
+
+```python
+def reverse_string(input_str):
+    """
+    This function takes in a string as input and returns its reversed form. It uses the built-in function `revers` to do so.
+    
+    :param str input_str: The input string to be reversed.
+    :return: A reversed string representation of the original string.
+    """
+    return input_str[::-1]
+```
+
+Here's how to use it in your program:
+
+```python
+input_str = "Hello, world!"
+print(reverse_string(input_str)) # Output: "dlrow olleh"
+```

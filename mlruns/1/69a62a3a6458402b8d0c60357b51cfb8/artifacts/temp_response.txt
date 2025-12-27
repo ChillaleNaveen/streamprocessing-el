@@ -1,0 +1,32 @@
+Lambda functions are user-defined functions in Python that are used as a preprocessor for other code. They can be used to simplify and automate complex tasks, and they allow for better organization, code reusability, and easier maintenance. Here's how it works:
+
+1. Define the function: Lambda functions have three main parts - the parentheses, the function name (which is also the name of the function), and the code inside the parentheses. Here's an example:
+
+```python
+def double(x):
+    return x * 2
+
+print(double(3))
+```
+
+This code defines a function `double` that takes an integer `x` as input and returns its double value (`x * 2`).
+
+2. Call the function: Once you have defined your function, you can call it by passing it as an argument to another function or using it directly in another expression. Here's how to call a lambda function:
+
+```python
+my_double = lambda x: x * 2
+print(my_double(3))
+```
+
+This code defines a new variable `my_double` that holds the lambda function `lambda x: x * 2`. Then, it calls this function by passing an integer `x` as an argument.
+
+3. Use the function: You can use lambda functions in place of regular functions to simplify and automate complex tasks in your code. Here's how you can use a lambda function instead of a regular function:
+
+```python
+def square(x):
+    return x**2
+
+print(square(3))
+```
+
+This code defines a function `square` that takes an integer `x` as input and returns its squared value (`x**2`). You can call this function by passing it as an argument to another function or directly in an expression.

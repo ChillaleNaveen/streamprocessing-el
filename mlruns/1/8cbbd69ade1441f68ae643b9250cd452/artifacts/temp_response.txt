@@ -1,0 +1,7 @@
+Containerization and Docker are two technologies that enable software developers to package their applications together into self-contained, portable containers for easy deployment and management. Here's how it works:
+
+1. Containerization: A container is a lightweight, isolated environment that runs within the operating system. It contains all the necessary components required by an application to function properly, including libraries, dependencies, and data. Containers are created using Docker, which is a tool for managing and deploying containers.
+
+2. Docker: Docker is a platform for creating, running, and managing Docker containers. It simplifies the process of building, deploying, and managing containerized applications by providing a comprehensive set of tools, plugins, and services. Docker allows developers to build, test, and deploy their applications more quickly, efficiently, and securely.
+
+In summary, containerization and Docker are both technologies used for packaging and deploying software applications in a self-contained and portable manner. They allow developers to package their applications together into containers that can be easily deployed and managed.

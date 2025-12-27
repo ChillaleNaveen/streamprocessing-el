@@ -1,0 +1,46 @@
+Generators in Python are a type of constructors that allow you to create objects dynamically based on input parameters. They are useful for creating reusable and complex data structures like lists, tuples, dictionaries, sets, and classes. Here's how they work:
+
+1. Define the Generator Class: The first step is to define a class that inherits from the `Iterator` class in Python. The class should have a `__next__()` method that returns the next item in the sequence.
+
+```python
+class MyGenerator(Iterator):
+    def __iter__(self) -> Iterator:
+        return self
+
+    def __next__(self) -> int:
+        try:
+            # get next item from the iterator
+            return next(self)
+        except StopIteration:
+            # If there are no more items, raise StopIteration
+            raise StopIteration()
+```
+
+2. Create an `Iterator` object: The second step is to create an instance of your generator class. The `__iter__()` method will create a new iterator for each call to `next()`.
+
+```python
+my_generator = MyGenerator()
+while True:
+    try:
+        item = next(my_generator)
+    except StopIteration:
+        break
+```
+
+3. Use the Generator Class with your Python code: Now, you can use your generator class to create objects dynamically based on input parameters. For example, you could create a list of integers:
+
+```python
+my_list = []
+for num in range(10):
+    my_list.append(num)
+```
+
+And you could create a dictionary with key-value pairs:
+
+```python
+my_dict = {}
+for num, name in [('a', 'apple'), ('b', 'banana')]:
+    my_dict[name] = num
+```
+
+In both cases, the generated objects are constructed based on the input parameters.

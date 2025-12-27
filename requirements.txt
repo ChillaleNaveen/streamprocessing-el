@@ -10,7 +10,7 @@ kafka-python==2.0.2
 mlflow==2.9.2
 
 # Evidently (fixed version)
-evidently==0.4.11
+evidently==0.4.33
 
 # Streamlit
 streamlit==1.29.0

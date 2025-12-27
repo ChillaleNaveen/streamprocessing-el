@@ -1,0 +1,30 @@
+Yes, I can provide a solution for the above question. Here's an example of how to write a function that checks if a given number is prime using the modulo operator (%) in Python:
+
+```python
+def is_prime(number):
+    # Check if the number is zero or one
+    if number == 0 or number == 1:
+        return False
+    
+    # Check for multiple factors
+    if number <= 1:
+        return False
+    
+    # Loop through all prime numbers up to sqrt(number) and check if any of them is a factor
+    for I in range(2, int(num ** 0.5 + 1)):
+        if number % i == 0:
+            return False
+    
+    return True
+```
+
+The `is_prime` function takes a single parameter `number`, which will be the input number to check for prime status. Here's an example usage of the function:
+
+```python
+>>> is_prime(10)
+True
+>>> is_prime(89)
+False
+>>> is_prime(256)
+True
+```

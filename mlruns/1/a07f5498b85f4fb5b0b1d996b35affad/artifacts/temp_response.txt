@@ -1,0 +1,19 @@
+To sort a list in Python, you can use the built-in function `sorted()` that takes a list as an argument and returns a sorted copy of the original list. Here's how to use it:
+
+```python
+# Example usage with a simple list
+my_list = [1, 2, 3, 4]
+sorted_list = sorted(my_list)
+print(sorted_list) # [1, 2, 3, 4]
+```
+
+The `sorted()` function takes two arguments: the list to be sorted and a boolean flag indicating whether to sort in ascending or descending order. It returns a new list that is sorted in the given direction. Here's how you can modify this code to sort the list in descending order:
+
+```python
+# Example usage with a sorted list
+my_list = [1, 2, 3, 4]
+sorted_list = sorted(my_list, reverse=True)
+print(sorted_list) # [4, 3, 2, 1]
+```
+
+In this modified code, we pass `reverse` as a Boolean flag to sort the list in descending order (i.e., from smallest to largest).

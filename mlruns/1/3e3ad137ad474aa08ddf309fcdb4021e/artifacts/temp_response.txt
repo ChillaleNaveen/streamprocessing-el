@@ -1,0 +1,24 @@
+To find duplicates in a list in Python, you can use the built-in `set` module's `intersection` method to identify duplicate values. Here's an example:
+
+```python
+import setuptools
+from setuptools import setup
+
+setup(name='duplicates_finder',
+      version='0.1',
+      packages=['duplicates_finder'],
+      scripts=['duplicates_finder.py'])
+```
+
+In this example, we're using the `setuptools` module to package our script as a Python package and running it using the `python` command line tool (if you don't have it installed on your system). You can modify the code to suit your needs by adjusting the arguments passed to the `intersection` method in the `import setuptools; setuptools.setup()` block.
+
+Here's an example of using this function:
+
+```python
+import duplicates_finder
+
+duplicates = duplicates_finder.find_duplicates(['a', 'b', 'c']) # returns a list with duplicate values
+print(duplicates)
+```
+
+In the above code, we import the `find_duplicates()` function from the `duplicates_finder` module and call it with three arguments: `'a'`, `'b'`, and `'c'`. The resulting list will contain all duplicate values found.

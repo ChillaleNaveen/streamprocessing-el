@@ -1,0 +1,16 @@
+A confusion matrix is an important tool in evaluating and interpreting classifier performance, which is calculated using a set of true positives (TPs), true negatives (TNs), false positives (FPS), and false negatives (FNs). It displays the true positive rate (TPR) and the false positive rate (FPR) for each classifier configuration in terms of accuracy, sensitivity, and specificity.
+
+The confusion matrix is composed of four rows and two columns:
+
+- Row 1: The first column represents the true positives (TPs). The TPs are those instances where the algorithm correctly identified the correct label for an instance, regardless of whether it was positive or negative. In other words, they are instances where the algorithm correctly predicted the classifier's output as positive.
+- Row 2: The second column represents the false positives (FPS). The FPS are those instances where the algorithm identified the correct label for an instance, but was incorrect in predicting the classifier's output as negative. This could happen if the algorithm is not able to distinguish between positive and negative instances.
+- Column 1: The first column represents the true negatives (TNs). The TNs are those instances where the algorithm correctly identified the correct label for an instance, regardless of whether it was positive or negative. In other words, they are instances where the algorithm correctly predicted the classifier's output as negative.
+- Column 2: The second column represents the false negatives (FNs). The FNs are those instances where the algorithm incorrectly identified the correct label for an instance, regardless of whether it was positive or negative. In other words, they are instances where the algorithm correctly predicted the classifier's output as positive.
+
+The confusion matrix is calculated using the following formula:
+
+confusion_matrix = (TP + FP) / (2 * TP + TN + FP + FN)
+
+where TP, FP, TN, and FN refer to the true positives, false positives, true negatives, and false negatives respectively.
+
+With this information, we can calculate metrics like AUC (area under the curve), sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), and F1 score to determine the model's overall performance.

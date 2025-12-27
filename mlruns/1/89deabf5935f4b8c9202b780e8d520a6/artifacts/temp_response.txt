@@ -1,0 +1,13 @@
+Certainly! Here's a detailed explanation of the difference between classification and regression in AI:
+
+Classification:
+Classification is a type of machine learning where you aim to classify (i.e., decide what category an object or data point belongs to) based on certain features or attributes. Classification tasks involve categorizing objects into pre-defined categories or classes, with each object or data point belonging to one and only one class.
+
+For example, if you were building a car insurance company using AI, you may have used classification algorithms to assign cars (or any other objects) into different categories based on their engine type, color, mileage, etc. Classification is commonly used in predictive analytics, where you use machine learning models to forecast future outcomes or make decisions based on historical data.
+
+Regression:
+Regression is a type of machine learning that aims to predict (i.e., estimate) values for unobserved variables based on observed ones. Regressions involve estimating coefficients (or parameters) that best fit the relationship between the observed variables and the predicted outcomes, where the predicted outcomes are used as an input to the next iteration of the algorithm.
+
+For example, if you were building a stock market prediction app using AI, you may have used regression algorithms to predict future stock prices based on historical data. The predicted values will be used as input to the next iteration of the machine learning model, which can then make more informed decisions and predictions.
+
+In summary, classification is a way to categorize objects or data points into pre-defined categories, while regression helps to forecast future outcomes based on observed variables.

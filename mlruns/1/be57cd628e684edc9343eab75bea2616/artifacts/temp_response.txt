@@ -1,0 +1,5 @@
+Lambda functions are a type of serverless function in Amazon Web Services (AWS) that offer a concise and flexible way to implement complex business logic without the need for code. Lambda functions are designed to be lightweight, highly scalable, and easily deployable across multiple AWS regions, making them an ideal solution for building scalable and reliable applications quickly.
+
+Lambda functions are built on top of Amazon API Gateway, which provides a flexible API gateway that integrates seamlessly with AWS services such as Lambda, S3, and DynamoDB. This integration allows developers to build APIs more easily while providing the security and performance features they need to deliver secure and reliable end-to-end solutions.
+
+In summary, Lambda functions are a serverless function that offers concise and flexible business logic without the need for code, making them an ideal solution for building scalable and reliable applications quickly.

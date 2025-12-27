@@ -1,0 +1,24 @@
+The main difference between append and extend is that append adds new items to an existing list, while extend replaces the entire list with a new one. Here's an example:
+
+Example using append:
+
+```python
+my_list = [1, 2, 3]
+my_list += [4, 5, 6]
+print(my_list) # Output: [1, 2, 3, 4, 5, 6]
+```
+
+In this example, the list `my_list` is initially empty. Then we append two numbers to it using the append function, which adds them as new items to the end of the list. Next, we use extend to replace the entire list with a new one that includes the newly appended items:
+
+```python
+my_list = [1, 2, 3]
+my_list += [4, 5, 6]
+print(my_list) # Output: [1, 2, 3, 4, 5, 6]
+```
+
+In this example, the list `my_list` is initially empty. Then we append two numbers to it using the append function, which adds them as new items to the end of the list. Next, we use extend to add the newly appended items to the entire list:
+
+```python
+my_list = [1, 2, 3]
+my_list += [4, 5, 6]
+print(my_list) # Output: [1, 2, 3, 4, 5, 6]

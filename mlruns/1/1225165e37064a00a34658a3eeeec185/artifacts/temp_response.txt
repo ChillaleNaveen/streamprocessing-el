@@ -1,0 +1,1 @@
+Test-driven development is a software development methodology that involves developing and testing software solutions in a staged, iterative process with the goal of achieving functionalities, features, and usability while keeping costs low. It is a way to evaluate software applications before they are ready for release or deployment.

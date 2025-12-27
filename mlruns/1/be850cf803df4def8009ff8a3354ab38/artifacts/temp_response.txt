@@ -1,0 +1,44 @@
+To read a CSV (Comma Separated Value) file in Python, follow these steps:
+
+1. Open the .csv file with Python's built-in `open()` function:
+   ```python
+   import os
+   
+   # open the file as text
+   with open("my_file.csv", "r") as csv_file:
+       reader = csv.reader(csv_file, delimiter=",")
+       
+       for row in reader:
+           # process each row of data here
+           pass
+    ```
+
+2. Explore the contents of the CSV file:
+   ```python
+   with open("my_file.csv", "r") as csv_file:
+       reader = csv.reader(csv_file, delimiter=",")
+       
+       for row in reader:
+           # process each row of data here
+           pass
+    ```
+
+3. Use a `csv` module's `read()` function to read the entire file into memory:
+   ```python
+   with open("my_file.csv", "r") as csv_file:
+       reader = csv.reader(csv_file, delimiter=",")
+       
+       for row in reader:
+           # process each row of data here
+           pass
+    ```
+
+4. Check the contents of the CSV file using a `csv` module's `head()` or `tail()` functions:
+   ```python
+   with open("my_file.csv", "r") as csv_file:
+       reader = csv.reader(csv_file, delimiter=",")
+       
+       for row in reader:
+           # process each row of data here
+           pass
+    ```

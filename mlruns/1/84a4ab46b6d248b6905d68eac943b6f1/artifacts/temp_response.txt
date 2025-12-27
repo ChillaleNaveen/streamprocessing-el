@@ -1,0 +1,31 @@
+Sure, here's a Python function that checks if a given number is prime:
+
+```python
+def is_prime(num):
+    """
+    Checks if a given number is prime by using the Euclidean algorithm.
+    :param num: The number to check for primality.
+    :return: True if num is prime, False otherwise.
+    """
+    # Define the divisors of num
+    divisors = [i for i in range(2, int(num ** 0.5) + 1)]
+    
+    # If the number is not divisible by any element of divisors, it's prime
+    if all(x in divisors for x in divisors):
+        return True
+    else:
+        return False
+```
+
+Here's an example usage:
+
+```python
+>>> is_prime(10)  # Returns True since 10 is prime
+True
+
+>>> is_prime(7)  # Returns False as 7 has no divisors
+False
+
+>>> is_prime(36)  # Returns False as 36 has no divisors
+False
+```

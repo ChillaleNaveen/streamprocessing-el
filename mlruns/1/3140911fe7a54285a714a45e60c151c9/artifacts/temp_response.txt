@@ -1,0 +1,25 @@
+Yes, I can write a function to find duplicates in a list using Python. Here's an example:
+
+```python
+def find_duplicates(lst):
+    # Define the unique list with duplicates removed
+    duplicates = []
+    
+    # Iterate over the original list and keep track of duplicates
+    for element in lst:
+        if element not in duplicates:
+            duplicates.append(element)
+    
+    return duplicates
+```
+
+Here's an example usage:
+
+```python
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Find duplicates using the function above
+duplicates = find_duplicates(numbers)
+print(duplicates) # Output: [1, 2, 3, 4, 5]
+```

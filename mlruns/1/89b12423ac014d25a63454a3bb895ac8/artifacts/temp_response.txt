@@ -1,0 +1,20 @@
+Sure, I'd be happy to explain the confusion matrix! The confusion matrix is a useful tool in understanding how different classifications (or predictions) are made by a machine learning algorithm. It's used to compare the true positives (TPs), false positives (FPs), true negatives (TNs), and false negatives (FNs) against each other. 
+
+Let's say we have two sets of training data - A and B. In A, there are 10 examples with a predicted label "A". Each example has a unique id and the expected label is also given as an attribute. We will call the true positives (TPs) the number of correctly identified examples out of the total number of examples in A.
+
+In B, we have another set of 10 examples with a predicted label "B". Each example has a unique id and the expected label is also given as an attribute. We will call the true negatives (TNs) the number of incorrectly identified examples out of the total number of examples in A.
+
+The confusion matrix for each set of training data can be constructed by taking the counts for each type of misclassification, and plotting them on a horizontal bar graph with each column representing one class and each row representing one scenario. 
+
+Here's an example of how the confusion matrix might look like:
+
+| A | B | TP | FP | FN |
+---------------------------
+| A | A | 3  | 1  | 2  |
+| A | B | 0  | 8  | 5  |
+| B | A | 1  | 6  | 4  |
+| B | B | 0  | 1  | 0  |
+
+In this case, the confusion matrix shows that in A (true positives), there are three correctly identified examples out of ten total. However, in B (false positives), we have eight incorrectly identified examples out of ten total. In other words, in B, there are two true negatives for every one false positive.
+
+This is why confusion matrices are also sometimes called "confusion tables" or "confusion charts".

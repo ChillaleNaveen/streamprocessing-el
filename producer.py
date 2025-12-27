@@ -33,11 +33,12 @@ class LLMProducer:
             value_serializer=lambda v: json.dumps(v).encode('utf-8')
         )
         
-        # Initialize Ollama LLM
+        # Initialize Ollama LLM with timeout
         self.llm = Ollama(
             base_url=config.ollama.base_url,
             model=config.ollama.model,
-            temperature=config.ollama.temperature
+            temperature=config.ollama.temperature,
+            timeout=60  # Explicit timeout to prevent hanging
         )
         
         # Prompt template
@@ -94,17 +95,20 @@ class LLMProducer:
             token_count = 0
             print(f"❌ ERROR: {error}")
         
-        # Publish response message
+        # Publish response message (includes prompt for dashboard display)
         response_message = {
             "request_id": request_id,
             "session_id": session_id,
             "user_id": user_id,
             "timestamp": datetime.utcnow().isoformat(),
+            "prompt": user_prompt,  # Original user prompt
+            "formatted_prompt": formatted_prompt,  # Formatted prompt sent to LLM
             "response": response_text,
             "latency": latency,
             "token_count": token_count,
             "response_length": len(response_text),
             "model": config.ollama.model,
+            "temperature": config.ollama.temperature,
             "status": status,
             "error": error
         }

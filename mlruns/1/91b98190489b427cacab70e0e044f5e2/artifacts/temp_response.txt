@@ -1,0 +1,15 @@
+Object-oriented programming (OOP) is a software design pattern that encourages the use of objects as the fundamental unit of data and computation. It is a way to structure your code into classes, objects, and methods that work together to perform a specific task. In OOP, objects are abstract data types that hold values or properties, while classes represent logical constructs that define the behavior of these objects.
+
+Here's an overview of how object-oriented programming works:
+
+1. Class Definition: The class is the fundamental unit of object-oriented programming. It defines the set of attributes (properties) and methods (functions) that are available to objects of a specific type. For example, let's say you have a car class and a passenger car class. A car class has properties like make, model, year, and engine size, while a passenger car class has properties like color, interior, and seating capacity.
+
+2. Object Definition: To create an object of a specific type, you must first instantiate the class that represents it. For example, to create a car object, you would call its constructor with the necessary parameters.
+
+3. Method Definition: Each method in the class defines how the attributes and methods of the object should behave. For example, let's say we want a car object to have the ability to drive on roads with different speeds, directions, and traffic conditions. The class definition would define this behavior as a property called "driving" that takes one argument, which is a boolean value indicating whether the car should drive or not.
+
+4. Inheritance: Subclasses inherit the properties of their superclass(es). That means when you create an object of a specific type (e.g., a passenger car), it inherits all the properties from its parent class (e.g., a car) and has additional properties inherited from its own subclass (e.g., color, interior, seating capacity).
+
+5. Interfaces: An interface defines the minimum set of methods that a class must provide for a specific purpose or use case. For example, let's say you have a shopping cart class with a method called "addItem" to add an item to the cart. The interface would define only this method as it represents the core functionality of the cart.
+
+In summary, object-oriented programming is a way of structuring your code to make it easier to understand and maintain by breaking up large programs into smaller, self-contained units called objects or classes. By defining the behavior of each object (properties and methods), you can have more control over how objects interact with one another and handle specific tasks based on their properties.

@@ -1,0 +1,7 @@
+Object-oriented programming (OOP) is a software development approach that separates the behavior of an application from its data and logic. In OOP, each object or class has specific behaviors, properties, and methods that enable it to interact with other objects within the system. Objects are abstractions of data, allowing developers to focus on the essential features of their applications without having to worry about the implementation details.
+
+In OOP, objects have a unique identity, which is determined by its state at any given time. This allows objects to share and interact with each other in a way that is easy to understand and maintain. Objects are created, assigned properties, and methods when needed, and they can be deleted or modified as necessary.
+
+OOP uses classes to represent the essential behaviors of an application. Each class is designed to have specific properties and methods. Whenever a new object is created, it inherits these properties from its parent class(es). OOP also provides inheritance, which allows objects to inherit their properties and methods from multiple parent classes.
+
+In summary, OOP separates the behavior of an application into separate objects that can interact with each other. Objects have unique identities and are created, assigned properties, and methods when needed. Classes provide a structured approach to designing objects and inheritance provides flexibility in the way objects interact with each other.

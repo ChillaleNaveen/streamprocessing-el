@@ -1,0 +1,17 @@
+Key Performance Indicators (KPIs) are vital metrics that help organizations measure and track their success in achieving business objectives. They provide a clear indication of how the organization is performing against established goals, targets, or benchmarks. Here are some key KPIs:
+
+1. Gross margin: It measures the percentage of sales revenue generated from total revenues. A high gross margin indicates that the company has a strong balance between revenue and expenses.
+
+2. Net income: It represents the amount of profit earned by the company, after deducting the cost of goods sold, operating expenses, and other non-operating items. A higher net income indicates better financial health for the organization.
+
+3. Return on investment (ROI): It measures the return on investment for a specific investment made by the company. The ROI is calculated by dividing the net income generated after making the investment by the total amount invested. A positive ROI indicates that the investment has been profitable.
+
+4. Return on assets (ROA): It measures how much profit a company generates for every dollar it spends on assets. The ROA is calculated by dividing the net income earned after subtracting the total assets from the total liabilities. A positive ROA indicates that the company has been generating more profits than what it has spent on fixed assets and debt.
+
+5. Customer satisfaction: It measures how customers perceive the organization's service, products or brand. A high customer satisfaction score indicates that customers are satisfied with the product/service provided by the company.
+
+6. Sales growth: It measures the rate of increase in sales revenue over a specific period. A positive sales growth indicates that the company is performing well and gaining market share.
+
+7. Employee engagement: It measures how employees feel about their work environment, job satisfaction, and career advancement opportunities. A high employee engagement score indicates that the organization is highly regarded by its employees, leading to higher levels of motivation and productivity.
+
+8. Customer retention rate: It measures the percentage of customers who continue to purchase products/services from an organization after a specific period. A high customer retention rate indicates that the company retains its loyal customers, resulting in increased revenue and profitability.

@@ -1,0 +1,33 @@
+Both append and extend are built-in methods for adding items to a list or tuple in Python, respectively. Here's how they differ:
+
+1. Append (list) - Appends an element(s) to the end of a list.
+
+Examples:
+
+```python
+# Appending an element at the end of a list
+my_list = [1, 2, 3]
+my_list.append(4)
+print(my_list) # Output: [1, 2, 3, 4]
+
+# Adding multiple elements to a list
+my_list = []
+for I in range(5):
+    my_list.append(i+1)
+print(my_list) # Output: [0, 1, 2, 3, 4]
+```
+
+In this example, the append method appends an element to the end of the list `my_list`. The extended method (extend) adds all the elements in a list `lst` to another list `new_list`, using the `append` method. Here's how it works:
+
+1. Extend (tuple) - Extends an existing tuple with a new element(s).
+
+Examples:
+
+```python
+# Extending a tuple with a new element(s)
+my_tuple = (1, 2, 3)
+new_tuple = my_tuple + (4, 5)
+print(new_tuple) # Output: (1, 2, 3, 4, 5)
+```
+
+In this example, the extended method appends all elements in a tuple `my_tuple` to another tuple named `new_tuple`. The output will be `(1, 2, 3, 4, 5)`.

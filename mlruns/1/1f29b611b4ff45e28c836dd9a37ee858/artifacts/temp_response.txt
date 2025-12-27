@@ -1,0 +1,41 @@
+Pyper is a Python generator that generates random strings based on specific criteria and patterns. Here are some examples of how Pyper works:
+
+1. Creating Random Strings:
+Pyper has two methods to create random strings: 'random_str' and 'random_range'.
+
+```python
+import pyper
+pyper.random_str(length=10)
+```
+
+This will return a random string with length 10. The 'random_str' method returns the string with alphanumeric characters, such as letters, numbers, and symbols.
+
+2. Random Alphanumeric Strings:
+To generate random alphanumeric strings, you can use the 'random_range' method. Here is an example:
+
+```python
+import pyper
+pyper.random_range(length=10, lowercase=False, uppercase=True)
+```
+
+This will return a random string with alphanumeric characters, excluding any punctuation or symbols.
+
+3. Random Alphanumeric Strings With Specific Punctuations:
+To generate random alphanumeric strings with specific punctuations, you can use the 'random_range_with_punct' method. Here is an example:
+
+```python
+import pyper
+pyper.random_range_with_punct(length=10, lowercase=False, uppercase=True)
+```
+
+This will return a random string with alphanumeric characters, excluding any punctuation or symbols, and including the excluded punctuations.
+
+4. Random Numbers:
+To generate random numbers, you can use the 'random_range' method. Here is an example:
+
+```python
+import pyper
+pyper.random_range(length=10)
+```
+
+This will return a random number between 0 and 9. The 'random_range' method returns a random integer between the two given values.

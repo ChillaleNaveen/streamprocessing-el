@@ -1,0 +1,17 @@
+Agile Methodology is a software development approach that emphasizes fast, iterative product development, customer-centric focus, and adaptability to changing requirements. The key principles of Agile Methodology are:
+
+1. Continuous Integration and Delivery (CICD) - continuous integration is the process of integrating code changes into a software project while testing, fixing issues, and improving the software continually. This approach ensures that new features and bug fixes are integrated into the software as quickly and efficiently as possible.
+
+2. Scrum - Scrum is an agile framework for software development based on the principles of self-organizing teams and working in small sprints or iterations. It emphasizes fast, iterative, and incremental delivery of value to customers while focusing on customer needs and requirements.
+
+3. Kanban - Kanban is a visual management methodology that helps ensure that tasks are being done efficiently and effectively. This approach encourages the use of clear and visible workflows, timelines, and Kanban boards to manage project resources and track progress.
+
+4. Agile principles - The Agile Principles (also known as Scrum Principles) outline key principles that guide the development process of Agile Methodology. These include:
+
+- Customer focus
+- Continuous improvement
+- Reworks are not rewrites
+- Iterative and incremental delivery
+- Respect for individual contributors' time, effort, and motivation
+
+In summary, Agile Methodology emphasizes fast, iterative product development, customer-centric focus, adaptability to changing requirements, continuous integration and delivery, self-organizing teams, working in small sprints or iterations, Kanban visual management, and Agile Principles.

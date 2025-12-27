@@ -1,0 +1,21 @@
+Sure, here's a Python function that finds duplicates in a list:
+
+```python
+def duplicate_remover(lst):
+    # Initialize a list to store the unique elements
+    unique = []
+    
+    # Iterate over the input list and add each element to the unique list if it is not already present
+    for elem in lst:
+        if elem not in unique:
+            unique.append(elem)
+            
+    return unique
+```
+
+To use this function, you can call it on your list and pass it as an argument like this:
+
+```python
+my_list = [1, 2, 3, 4]
+dupl_lst = duplicate_remover(my_list)
+print(dupl_lst)  # Output: [[1], [2, 3], [4]]

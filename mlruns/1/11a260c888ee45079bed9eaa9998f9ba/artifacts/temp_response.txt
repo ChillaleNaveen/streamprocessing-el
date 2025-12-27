@@ -1,0 +1,13 @@
+Agile methodology is an iterative and incremental approach to software development that emphasizes customer satisfaction, flexibility, adaptability, and collaboration. It is a highly flexible and adaptable framework for developing high-quality software products in a rapidly changing business environment. Agile methodology encourages the use of Scrum, a popular agile framework, to manage the development process.
+
+Agile methodology follows the principles of:
+
+1. Continuous Integration and Delivery (CICD): Agile teams work on developing software incrementally, making changes and integrating them into the overall product while continuously delivering value to stakeholders.
+
+2. Sprints: Each sprint lasts for a few weeks and is focused on delivering a specific set of features or functionality. The goal is to complete the sprint within a specified timeframe, with regular check-ins and updates provided by teams to stakeholders.
+
+3. Customer-Centric Design: Agile methodology emphasizes customer-centric design, focusing on the needs and requirements of end-users rather than the technical specifications. This approach helps teams develop products that are relevant, useful, and meet customer needs.
+
+4. Iterative Development: Agile teams work in an iterative manner, refining and improving their work every day to continuously improve the product.
+
+5. Extreme Programming (XP): Agile methodology incorporates Extreme Programming (XP) principles, which emphasize collaboration, continuous testing, and adaptability. This approach encourages teams to experiment with new approaches and technologies while maintaining high quality standards.

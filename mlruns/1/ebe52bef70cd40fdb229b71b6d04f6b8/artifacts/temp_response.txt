@@ -1,0 +1,1 @@
+Microservices is a software development architecture that breaks down large applications into independent and reusable services that operate independently on different layers of a system. This allows for better scalability, fault tolerance, and resource management, as each service can be easily deployed, modified or replaced without affecting the other services.

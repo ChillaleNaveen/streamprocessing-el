@@ -1,0 +1,32 @@
+Gradient descent is an algorithm used in machine learning and optimization that involves iteratively updating the parameters of a model (usually a function) based on the gradients of the loss function with respect to each parameter. The algorithm works by starting from some initial value for the parameters, then iterating through multiple iterations until the loss function begins to decrease or converges.
+
+Here's how gradient descent works in detail:
+
+1. Define the loss function (usually a function of the output of the model) and its gradient.
+2. Calculate the gradients of the loss with respect to each parameter, using backpropagation through the neural network layers.
+3. Update the parameters by taking the negative of the gradient, multiplying it by a learning rate (usually small), and adding it to the initial value for the parameter.
+4. Repeat this process until the loss function has converged or reaches a desired accuracy level (e.g., when the gradients are close enough to zero).
+
+For example, let's say we have a binary classification problem where our model outputs a probability of which class a given input belongs to. We want to find the optimal parameters for this model by minimizing a loss function that measures how far away from 0 (i.e., the probability of each class) each output is.
+
+We will define our loss function as:
+
+$$L(w, y) = -y\log(p(x|w)),$$
+
+where $y$ represents the actual output, $p(x|w)$ is the probability distribution over the dataset that we use to train our model, and $w$ represents the parameters of our neural network.
+
+We will also define the gradient as:
+
+$$\frac{\partial L}{\partial w} = -\frac{1}{N}\sum_i^N \left(y_i - p(x_i|w)\right) \log (p(x_i|w))$$
+
+where $i$ represents the index of an input sample, and $N$ is the number of samples in the dataset.
+
+We will then update our parameters by taking the negative of the gradient multiplied by a learning rate:
+
+$$w_t = w_0 - \alpha \frac{1}{N}\sum_i^N \left(y_i - p(x_i|w)\right) \log (p(x_i|w))$$
+
+where $t$ represents the iteration number. The update is repeated until convergence or we have reached a desired accuracy level.
+
+This process can be iterated multiple times, and each time we will update our parameters by taking the negative of the gradient and multiplying it by a learning rate. Gradient descent converges to a stable point in the parameter space (i.e., the loss function is close to its minimum) as long as there are enough samples in the dataset to ensure that the gradients are positive.
+
+In summary, gradient descent works by iteratively updating parameters based on the gradients of the loss function with respect to each parameter, which ultimately leads to better model performance.

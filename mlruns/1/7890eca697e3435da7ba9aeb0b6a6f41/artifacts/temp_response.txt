@@ -1,0 +1,9 @@
+Sure! Here's the answer to your question:
+
+AI and ML are two different types of machine learning algorithms that differ in their approach, purpose, and application. 
+
+AI is a subfield of machine learning that focuses on automated decision-making using data and machines. AI uses algorithms to analyze and interpret large amounts of unstructured or structured data, enabling human-like decision-making capabilities.
+
+On the other hand, ML is a broader field that involves creating and training models based on data to make predictions or inferences. It typically starts with cleaning, transforming, and preprocessing the data, followed by feature selection, model building, and testing. ML algorithms can be trained using supervised learning, unsupervised learning, reinforcement learning, or deep learning techniques.
+
+In summary, AI is concerned with decision-making algorithms while ML involves creating models based on data.

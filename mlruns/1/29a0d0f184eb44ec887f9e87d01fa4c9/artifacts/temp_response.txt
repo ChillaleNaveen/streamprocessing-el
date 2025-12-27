@@ -1,0 +1,17 @@
+Object-oriented programming (OOP) is a software development methodology that allows developers to create complex applications by defining objects and their interactions using objects, classes, and inheritance. It involves creating classes for data representation and behavior, and methods for handling user input, manipulation, and processing. OOP encourages code reuse, modularity, and encapsulation by organizing object-level data and functionality into classes.
+
+In Object-Oriented Programming:
+
+1. Data: Objects represent a set of related attributes and behaviors. They are created using classes.
+
+2. Behaviors: Classes define the behavior or rules that objects follow. Each method in a class specifies what actions an object can take on behalf of other objects.
+
+3. Interactions: Classes can be used to create multiple instances of objects. A single class may have multiple behaviors, and each instance has its own unique set of attributes and behaviors.
+
+4. Object-Level Data: Classes provide data representation for objects, which is shared across multiple instances. This allows for easy access to the necessary information from multiple objects.
+
+5. Encapsulation: OOP achieves encapsulation by hiding the internal details of an object from outside applications.
+
+6. Modularity: The separation of code into smaller, reusable modules makes it easier to maintain and update the application over time.
+
+7. Design Patterns: Object-oriented programming can be used to solve problems in real-life scenarios using design patterns. For example, the singleton pattern is a popular OOP design pattern for managing singletons.

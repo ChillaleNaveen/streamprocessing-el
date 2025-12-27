@@ -1,0 +1,7 @@
+Difference:
+
+1. AI: Artificial Intelligence (AI) refers to the ability of a machine or computer system to behave like, and in some cases exceed, the behavior of a human or an animal. It can perform tasks that are too complex or challenging for humans to achieve. In contrast, Machine Learning (ML) is the process by which algorithms learn from data without being explicitly programmed. This learning occurs through experience rather than direct programming instructions.
+
+2. ML: Machine Learning (ML) is a subset of Artificial Intelligence (AI), where algorithms learn from data to make decisions based on past experiences. Unlike AI, ML requires less human intervention or input, and can work without explicit guidance from humans. It enables machines to learn and perform tasks like image recognition, natural language processing, and robotics.
+
+In summary, AI focuses more on the algorithmic process of learning from data, while ML is a subset that uses algorithms for decision-making based on past experiences or patterns in data.

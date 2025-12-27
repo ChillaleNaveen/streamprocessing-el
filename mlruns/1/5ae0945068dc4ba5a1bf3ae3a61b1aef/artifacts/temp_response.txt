@@ -1,0 +1,15 @@
+Object-oriented programming (OOP) is a programming approach that emphasizes the separation of code into independent and reusable entities called "objects." OOP allows developers to create objects, which can have attributes, behaviors, and relationships with other objects.
+
+The key concepts of OOP are:
+
+1. Classes: These are collections of related data or behavior. They define properties and methods that can be used by objects in the program. Classes also contain the code for how objects behave and interact with each other.
+
+2. Objects: These are instances of classes. Objects have specific attributes, behaviors, and relationships with other objects.
+
+3. Inheritance: OOP allows classes to inherit properties and methods from their parents. This allows objects to share common features or abilities without having to define them as separate entities.
+
+4. Polymorphism: OOP provides for polymorphism, which means that objects can behave differently depending on their type (e.g., a string vs. An integer).
+
+5. Encapsulation: This is the practice of hiding information and properties from outside access or manipulation. This allows objects to be private to their owners/implementors.
+
+Overall, OOP helps in creating scalable, maintainable, and testable software by providing a standardized approach for defining and organizing code.

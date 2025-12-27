@@ -1,0 +1,18 @@
+Classification and Regression are two different types of machine learning algorithms used in data analysis and machine learning applications, with distinct differences in how they work.
+
+Classification is a supervised learning algorithm that assigns class labels to each input data point based on its relationship with a set of pre-defined labels or categories. In classification, the goal is to find the most suitable label for each new input data point based on their similarity to previously learned patterns. This process is known as classification analysis.
+
+Regression is an unsupervised learning algorithm that finds patterns in data by analyzing the relationships between variables. It aims to identify trends and outliers in the data, and then helps predict future values based on existing patterns. In regression analysis, the goal is to find the most suitable model for describing how different variables affect each other.
+
+In summary:
+Classification:
+1. Inputs are pre-defined categories or labels (e.g., "red", "blue", "green")
+2. Relationships between inputs and labels are learned from data
+3. Class labels are assigned to new input data based on learning process
+4. Classification analysis is performed to find the most suitable label for each new input data point
+
+Regression:
+1. Inputs are continuous variables (e.g., "height", "weight", "price")
+2. Relationships between inputs and outcomes (e.g., height vs. Weight, price vs. Price per unit) are learned from data
+3. Outcome is predicted based on learning process
+4. Prediction is performed to identify patterns in the data that can predict future values of the outcome variable(s)

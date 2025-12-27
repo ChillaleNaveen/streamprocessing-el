@@ -1,0 +1,5 @@
+Containerization is a process of creating self-contained, isolated and portable software environments called containers. A container is a small, lightweight virtual environment that runs a set of software components in a single process, making it easier to deploy, manage, update, and maintain applications on a variety of platforms, including cloud computing and on-premises systems.
+
+Docker is an open source project that enables developers to easily create, share, and manage Docker containers, which makes it easier to manage, deploy, and scale containerized applications. In essence, containerization and Docker are two complementary approaches for building, managing and deploying container-based software.
+
+In summary, containerization is a way of creating self-contained, portable, and isolated environments for running software applications, while Docker provides an open source project that enables developers to create, share, and manage containers.

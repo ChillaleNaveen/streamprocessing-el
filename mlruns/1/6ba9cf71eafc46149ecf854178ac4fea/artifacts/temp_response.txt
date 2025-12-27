@@ -1,0 +1,13 @@
+Agile Methodology is a software development approach that emphasizes collaboration, adaptability, and continuous improvement. It is characterized by iterative sprints (1-4 weeks), rapid prototyping, customer involvement, and continuous feedback loops. Agile principles include:
+
+1. Customer-centric: Agile emphasizes the needs of end-users as the primary driver for software development.
+
+2. Iterative approach: Agile methodology encourages a fast-paced iterative approach to software development, where each sprint focuses on completing one specific task or feature.
+
+3. Continuous improvement: Agile emphasizes continuous feedback loops and learning from the user's feedback to improve the product over time.
+
+4. Small teams: Agile methodology encourages small, focused teams that work in small sprints.
+
+5. Collaborative approach: Agile promotes collaboration among team members, regardless of their technical expertise or background.
+
+6. Adaptable: Agile is flexible and adaptive to changing needs, priorities, and technologies.

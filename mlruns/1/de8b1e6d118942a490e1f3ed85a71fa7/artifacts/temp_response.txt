@@ -1,0 +1,7 @@
+The main distinction between Artificial Intelligence (AI) and Machine Learning (ML) is their respective approaches to data analysis and decision-making. Here's a brief explanation:
+
+1. AI: The primary goal of AI is to simulate intelligent behavior in machines or systems. It focuses on learning from data, making predictions based on patterns, and using this information to make decisions. This approach uses algorithms that can be trained on large amounts of data, which enables it to outperform humans in certain tasks such as driving or playing games.
+
+2. ML: Machine Learning is a subset of AI that focuses on the analysis of complex data sets. It involves developing algorithms that can learn from unlabeled data and make predictions based on new information. This approach uses statistical techniques, machine learning models, and algorithms to optimize decision-making based on historical data.
+
+In summary, AI is focused on simulating intelligent behavior in machines or systems while ML focuses on analyzing complex data sets to make decisions.

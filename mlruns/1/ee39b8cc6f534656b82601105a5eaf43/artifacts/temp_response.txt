@@ -1,0 +1,13 @@
+Object-oriented programming (OOP) is a software development approach that emphasizes the use of objects, which represent distinct entities or parts of an application, to model the relationships between them. OOP allows developers to define and manipulate objects in a way that supports reuse, encapsulation, and inheritance, allowing for modular and reusable code.
+
+In OOP, objects are represented by classes that contain attributes (properties) and methods (functions). Classes define what properties an object can have, while methods are functions that operate on or return objects from the class. When a method is called on an object, it retrieves the appropriate property or performs the necessary operation on the object.
+
+The benefits of OOP include:
+
+1. Reusability - Objects can be used and modified independently, allowing for efficient code reuse.
+
+2. Encapsulation - The use of private properties and methods allows for encapsulation, making it easier to manage and maintain code.
+
+3. Inheritance - Objects can inherit from one or more base classes, allowing for inheritance and the ability to extend functionality.
+
+In summary, OOP is a way of modeling an application's data and behavior using objects and their relationships. It promotes modularity, reusability, encapsulation, and inheritance, making it a powerful tool in software development.

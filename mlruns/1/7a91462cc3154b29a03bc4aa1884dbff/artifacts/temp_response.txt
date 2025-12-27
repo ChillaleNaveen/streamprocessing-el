@@ -1,0 +1,5 @@
+The main distinction between artificial intelligence (AI) and machine learning (ML) is that AI is a subfield of computer science focused on developing intelligent agents or autonomous systems, while ML is a broader field that involves the development of algorithms to train and optimize machine learning models.
+
+AI focuses on creating machines that can think like humans, while ML employs mathematical techniques for developing predictive models based on data. AI uses artificial intelligence techniques such as machine learning, natural language processing (NLP), and reinforcement learning to create intelligent systems that are capable of performing tasks with high efficiency and effectiveness.
+
+In contrast, ML is a broader field that involves the development of algorithms, rules or models to train and optimize machine learning models to perform certain tasks. It does not rely solely on artificial intelligence techniques such as deep learning and reinforcement learning.

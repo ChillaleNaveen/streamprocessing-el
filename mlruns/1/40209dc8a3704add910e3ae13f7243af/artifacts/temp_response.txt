@@ -1,0 +1,13 @@
+REST (Representational State Transfer) is an architectural pattern and protocol for creating distributed applications. It's based on HTTP, which is a standard method for transmitting data between a client and server using a network connection. The REST architecture has several principles that help maintain the quality of APIs:
+
+1. Representational state transfer: This principle states that API requests should be as simple and straightforward as possible to ensure easy communication between clients and servers.
+
+2. Statelessness: All data presented in response to an API request is inherently stateless, meaning it doesn't have any context or information associated with it. This makes the API more scalable and easier to use.
+
+3. URI-based routing: HTTP URLs are used to identify resources and routes in APIs. This principle ensures that requests are routed to the correct resource based on the URL.
+
+4. Payload format: RESTful APIs require payload formats to represent data in the request/response messages. This helps ensure consistency in data representation across different API versions and allows for easier translation between different APIs.
+
+5. Versioning: Some APIs may have multiple versions or releases, which means that they need to use versioning to manage these changes. RESTful APIs follow this principle by defining a version number for each resource and communicating it with the request/response message.
+
+6. Security: RESTful APIs should be secure to ensure data privacy and protection against unauthorized access. This is achieved through HTTPS, proper authentication, and other security measures.

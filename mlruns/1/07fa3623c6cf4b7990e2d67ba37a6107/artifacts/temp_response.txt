@@ -1,0 +1,12 @@
+To handle exceptions in Python, you can use try-except blocks to catch and handle specific exceptions. Here's an example of how to create a basic try-except block that handles two common types of exceptions:
+
+```python
+try:
+    # code to handle exception
+except ValueError as e:
+    print(e)
+except Exception as e:
+    print(f"An unexpected error occurred: {e}")
+```
+
+In this example, we're using a try-except block with two exceptions - `ValueError` and `Exception`. The first exception is caught and printed to the console. The second exception is caught and an error message is printed. If there are no exceptions being caught by this code, it will execute normally without any errors or warnings. You can customize the error messages based on your needs using string formatting or other techniques.

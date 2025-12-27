@@ -1,0 +1,33 @@
+PyThon generators, also known as iterators or enumerators, are a powerful feature of Python that allow you to create sequences of values in an efficient and flexible manner. They work by dividing up a larger sequence into smaller chunks or "iterable" objects, and then calling the generator function (or method) on each one until all the items have been processed.
+
+Here's an example:
+
+```python
+from itertools import takewhile
+
+def get_prices(pricelist):
+    return [price for price in takewhile(lambda price: price > 10, pricelist)]
+
+pricelist = [3.99, 4.99, 5.99, 7.99]
+result = get_prices(pricelist)
+print(f"The lowest prices are {result}")
+```
+
+In this example, we define a function `get_prices()` that takes an iterable of prices and returns a list of the lowest prices (in ascending order). We then call this function with a list of prices from our own list `pricelist`. The resulting list `result` contains all the items in the original `pricelist`, but with the lowest values.
+
+This technique can be applied to many different types of data, such as lists of strings or numbers. For example:
+
+```python
+from itertools import groupby
+
+def get_counts(string_list):
+    return [count for key, count in groupby(sorted(string_list))]
+
+string_list = ["apple", "banana", "orange", "pear"]
+result = get_counts(string_list)
+print(f"The most common fruits are {result}")
+```
+
+In this example, we define a function `get_counts()` that takes an iterable of strings and returns a dictionary with the keys being the most common fruits (in descending order) and the values being their corresponding counts. The resulting dictionary contains pairs for every item in the original list, but sorted by count in ascending order.
+
+Overall, generators allow you to process large datasets efficiently and in an efficient manner, without having to manipulate entire lists or arrays one by one.

@@ -1,0 +1,34 @@
+Sure, here's how to use regular expressions in Python:
+
+1. Import the necessary library (e.g., re):
+   ```python
+   import re
+   ```
+
+2. Create a pattern with your desired expression:
+   ```python
+   pat = r'([A-Z]+)\d{2}'  # pattern for month and day using two capitals and four digits
+   ```
+
+3. Match the pattern against a string:
+   ```python
+   match = re.match(pat, str_to_check)
+   if match:
+       # match found
+       print("Match found!")
+   else:
+       # no match found
+       print("No match found.")
+   ```
+
+4. Use the `re.search()` function to find all occurrences of the pattern in a string:
+   ```python
+   matches = re.search(pat, str_to_check)
+   for match in matches.groups():
+       # print match group
+   ```
+
+5. Remove any matches from the original string using a `re.sub()` function:
+   ```python
+   new_str = re.sub(r'(' + pat + r')', '', str_to_check)
+   ```

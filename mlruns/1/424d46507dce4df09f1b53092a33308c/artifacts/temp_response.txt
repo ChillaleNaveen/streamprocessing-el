@@ -1,0 +1,11 @@
+Sure! Here's how you can use regular expressions in Python to solve common problems:
+
+1. Matching patterns: Regular expressions are used for matching patterns or strings of characters that match a specific pattern. For example, if you have a string "hello world" and want to find all occurrences of the word "world," you could use the regex `r'(?i)world\b'` (where `\b` is a backspace character), which matches the substring between the two consecutive spaces (ie, "hello " and "world") as a whole.
+
+2. Replacing patterns: Regular expressions can also be used for replacing patterns in a string. For example, if you have a string "apple banana" and want to replace all occurrences of the word "banana" with the word "orange," you could use the regex `r'(?i)apple\b+(\B|orange)\b'` (where `\b` is another backspace character, `|` represents a quantifier, and `\B` matches the preceding space), which matches all occurrences of the word "banana" except for those that immediately follow an opening or closing space.
+
+3. Extracting text: To extract text from a string, you can use the regex `r'(?i)(?:.|\n)+'` (where `\n` represents a newline character), which matches one or more newlines followed by any number of non-newline characters (including whitespace). This pattern is used to extract the entire contents of a paragraph in a HTML file.
+
+4. Filters: You can use regular expressions to create filters to filter out unwanted data from an input list or file. For example, if you have a list `lst` containing only integers greater than 10, you could use the regex `r'(?i)[1-9]+'` (where `\b` is a backspace character) to match all integers that are not divisible by 2.
+
+Remember that regular expressions can be complex and difficult to understand at first glance, so it's always a good idea to read up on their syntax and usage before using them in your projects.

@@ -1,0 +1,1 @@
+Lambda functions are a type of serverless function in AWS Lambda that provide a way to define and run code within the AWS cloud without needing to provision or manage servers on your own. They are designed to be lightweight, fast, and scalable for use cases that require high-throughput, low-latency, and frequent execution.

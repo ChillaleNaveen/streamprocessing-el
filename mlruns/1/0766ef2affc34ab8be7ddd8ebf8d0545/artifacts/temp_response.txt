@@ -1,0 +1,7 @@
+Sure! Machine learning is a process that allows computers to learn from data without being explicitly programmed. It's commonly broken down into two main categories: supervised and unsupervised learning.
+
+Supervised Learning: In supervised learning, the goal is to teach a machine to recognize patterns or relationships between different inputs (data points) based on previously labeled data. For example, if you have a dataset of customer purchases for a specific product over time, you might want the machine to learn to predict whether that same product will be purchased in the future given past purchase history. This is called a supervised learning problem.
+
+Unsupervised Learning: Unsupervised learning focuses on identifying and analyzing patterns or relationships in unlabeled data (i.e., data without any labels or context). For example, let's say you have a dataset of photos taken by different people over time. You might want to learn to recognize certain faces or objects based solely on the image itself. This is called an unsupervised learning problem.
+
+In summary, machine learning involves identifying patterns and relationships between data points using labeled data, followed by transferring that knowledge to new unlabeled data (i.e., images, customer purchases, etc.). The goal of machine learning is to automate complex tasks by making predictions or decisions based on data, without being explicitly programmed.

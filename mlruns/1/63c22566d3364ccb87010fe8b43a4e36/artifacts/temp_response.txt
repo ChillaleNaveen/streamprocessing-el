@@ -1,0 +1,30 @@
+Yes, I can provide you with a function that can help you find duplicates in a list. Here's an example:
+
+```python
+def get_duplicates(list_of_integers):
+    """
+    Returns a list of integers that are duplicates in the given list.
+    
+    :param list_of_integers: A list of integers to check for duplicates
+    :type list_of_integers: List[int]
+    
+    :return: A new list of integers containing only non-duplicate values
+    """
+    # Initialize a list to store the non-duplicate values
+    non_duplicates = []
+    
+    # Iterate through each value in the original list and check if it is a duplicate
+    for integer in list(set(list_of_integers)):
+        if integer not in non_duplicates:
+            non_duplicates.append(integer)
+    
+    return non_duplicates
+```
+
+Here's an example usage of the function:
+
+```python
+>>> list_of_integers = [1, 2, 3, 4, 5, 6]
+>>> get_duplicates(list_of_integers)
+[1, 2, 3, 4]
+```

@@ -89,7 +89,7 @@ function Wait-ForPort {
     return $false
 }
 
-function Kill-ProcessOnPort {
+function Stop-ProcessOnPort {
     param([int]$Port)
     
     try {
@@ -169,7 +169,7 @@ $portsToCheck = @(9092, 2181, 5000, 8501, 11434)
 foreach ($port in $portsToCheck) {
     if (Test-Port -Port $port) {
         Write-Warning-Custom "Port $port is in use. Attempting to free it..."
-        Kill-ProcessOnPort -Port $port
+        Stop-ProcessOnPort -Port $port
         Start-Sleep -Seconds 2
     }
 }
@@ -309,7 +309,7 @@ foreach ($topic in $topics) {
     $createCmd = "& '$KafkaHome\bin\windows\kafka-topics.bat' --create --bootstrap-server localhost:9092 --topic $topic --partitions 2 --replication-factor 1 --if-not-exists 2>&1"
     
     try {
-        $result = Invoke-Expression $createCmd
+        Invoke-Expression $createCmd | Out-Null
         Write-Success "Topic ready: $topic"
     }
     catch {

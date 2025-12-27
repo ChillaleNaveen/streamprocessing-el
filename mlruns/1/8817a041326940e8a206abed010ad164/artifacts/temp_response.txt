@@ -1,0 +1,12 @@
+To read a CSV (Comma Separated Value) file in Python, you can use the `csv` library and its various functions. Here's an example code snippet:
+
+```python
+import csv
+
+# Open the CSV file
+with open('my_csv_file.csv', mode='r') as my_csv_file:
+    # Read the contents of the CSV file into a Python list
+    data = [line for line in csv.reader(my_csv_file)]
+```
+
+This code creates a new `csv.reader` object, reads the CSV file into a Python list (`data`), and prints it to the console. You can replace `'my_csv_file.csv'` with the name of your actual CSV file for more specific results.

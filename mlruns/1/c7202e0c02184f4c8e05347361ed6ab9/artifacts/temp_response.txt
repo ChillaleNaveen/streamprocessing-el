@@ -1,0 +1,5 @@
+Object-oriented programming (OOP) is a software development methodology that involves designing and implementing software systems with objects, or entities, as the primary unit of data and logic organization. OOP provides a structured approach to software design and maintenance by defining data types, relationships between them, and encapsulation of data to prevent access, modification, and destruction outside its intended context.
+
+OOP allows developers to create programs that are modular, flexible, and easy to maintain, while also providing a logical and well-structured approach to software design. OOP helps developers to write more readable and maintainable code by allowing them to group related functions or classes together into modules, which can be easily reused and extended as required.
+
+In summary, object-oriented programming is a way of structuring software development that allows for more modular, flexible, and maintainable designs. It provides a logical and well-structured approach to software design, ensures data integrity, and simplifies the process of writing code.

@@ -1,0 +1,12 @@
+The confusion matrix is a graphical representation of how different categories or classes (classes in machine learning terminology) are classified by another category or class. In simple terms, it shows the proportion of samples that fall into each class, and their corresponding probabilities of being correctly labeled as either belonging to one class or another.
+
+The confusion matrix typically consists of four columns: 
+
+1. Predicted label (or true label) - This is represented by a row for each sample, where the value at this row corresponds to the predicted label assigned by the machine learning model.
+2. Actual label (or true label) - This is represented by another row for each sample, where the value at this row corresponds to the ground truth or actual label of the sample.
+3. True positive (TP) - This is a row for each sample, where the value at this row corresponds to the number of samples that are correctly labeled as belonging to one class (true positives).
+4. True negative (TN) - This is a row for each sample, where the value at this row corresponds to the number of samples that are correctly labeled as belonging to another class (false negatives).
+5. False positive (FP) - This is a row for each sample, where the value at this row corresponds to the number of samples that are incorrectly labeled as belonging to one class (false positives).
+6. False negative (FN) - This is a row for each sample, where the value at this row corresponds to the number of samples that are incorrectly labeled as belonging to another class (false negatives).
+
+The confusion matrix can help in understanding how well the machine learning model performs on a given dataset by highlighting the areas where it struggled or misclassified certain categories. It also provides insights into the strengths and weaknesses of the model, allowing for more informed decision-making and improvement.

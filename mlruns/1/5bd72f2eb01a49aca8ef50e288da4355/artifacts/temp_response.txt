@@ -1,0 +1,47 @@
+Yes, I'd be happy to explain decorators in Python! Decorators are a type of decoration that adds functionality to existing functions or classes. In other words, they allow for the addition of additional code before or after the actual function or class being called. 
+
+Here's an example of how decorators work:
+
+```python
+# simple_add.py
+def simple_add(x, y):
+    return x + y
+
+# with_decorator.py
+from simple_add import simple_add
+
+def add_dec(x, y):
+    print("Adding", x, "and", y)
+    return simple_add(x, y)
+
+# without_decorator.py
+from simple_add import simple_add
+
+def add_no_dec():
+    print("Adding 1 and 2")
+    return simple_add(1, 2)
+```
+
+In `simple_add.py`, we have a function named `simple_add` that takes two arguments (`x` and `y`) and returns the sum of these numbers. We then create a decorator named `with_decorator` that adds `print("Adding")` before the original function definition. This makes sure that any calls to `simple_add(1, 2)` are logged as "Adding 1 and 2".
+
+```python
+# with_decorator.py
+def simple_add(x, y):
+    print("Adding", x, "and", y)
+    return simple_add(x, y)
+```
+
+In `with_decorator.py`, we have a function named `simple_add` that takes two arguments (`x` and `y`) and returns the sum of these numbers. We use the decorator to add a print statement before the original function definition. This makes sure that any calls to `simple_add(1, 2)` are logged as "Adding 1 and 2".
+
+```python
+# without_decorator.py
+from simple_add import simple_add
+
+def add_no_dec():
+    print("Adding 1 and 2")
+    return simple_add(1, 2)
+```
+
+In `without_decorator.py`, we have a function named `add_no_dec` that takes one argument (`x`) and returns the sum of these numbers. We use the decorator to remove the print statement before the original function definition. This makes sure that any calls to `simple_add(1, 2)` are logged as "Adding 1 and 2".
+
+In summary, decorators allow us to add additional functionality to existing functions or classes by modifying their code without having to modify the original function itself. It's a powerful feature in Python!

@@ -1,0 +1,20 @@
+A Python generator is an iterative command that continuously generates and produces values based on a specific function or expression. Generators are often used in functional programming, as they allow for easier control over the computation process and reduce the risk of memory leaks. Here's how to define and use a simple generator:
+
+```python
+def square_of_number(num):
+    """
+    Returns the square of num.
+    :param num: The number to calculate the square of.
+    :return: The squared number.
+    """
+    return num ** 2
+
+# Generate a list of squares of numbers between 1 and 50
+squares = (square_of_number(num) for num in range(1, 61))
+
+# Print the generated list of squares
+for square in squares:
+    print(square)
+```
+
+In this example, we've defined a simple generator function that takes an integer `num` as input and returns its squared value. We use a list comprehension to generate a list of squares between 1 and 50, and iterate over it using the `for` loop. The generated list is printed on each iteration. Note that in Python, generators are often used in combination with functions or other iterable objects (such as strings or lists) for efficiency and ease of use. They can also be useful in scenarios where a sequence of data needs to be transformed in a single operation.

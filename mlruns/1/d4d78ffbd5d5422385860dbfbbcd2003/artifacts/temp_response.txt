@@ -1,0 +1,21 @@
+To handle exceptions in Python, you can use the try-except block structure:
+
+```python
+try:
+    # code that may throw a specific exception
+except Exception as error_type:
+    print("Error:", str(error_type))
+except:
+    print("Something went wrong.")
+```
+
+Here, the `try` block executes the code until it encounters an exception. The `except` block catches that specific exception and prints its message using the `str()` function and a default message if no error was caught. If you need to handle multiple exceptions in one try-except block, use a list of exception types:
+
+```python
+try:
+    # code that may throw a specific exception or some other exceptions
+except Exception as error_type1, error_type2:
+    print("Error:", str(error_type1), "and", str(error_type2))
+except:
+    print("Something went wrong.")
+```

@@ -1,0 +1,17 @@
+LaTeX functions, commonly known as lambda functions or anonymous functions in Python, are a powerful and versatile tool in mathematics and computer science. They provide a simple and concise way to define and call functions in an object-oriented programming environment. Here's how they work:
+
+Lambda functions take zero or more arguments and return a single value. Each argument is passed by reference and all are evaluated once before returning the final result. Here's a simple example of how lambda functions can be used in Python:
+
+```python
+def sum_of_squares(num):
+    """
+    Calculates the sum of squares of a given list of numbers
+    :param num: the list of numbers to calculate the sum for
+    :return: the sum of squares of the given list
+    """
+    return sum(map(lambda x: x**2, num))
+
+print(sum_of_squares([1, 4, 9]))  # 15
+```
+
+In this example, we're calling the "sum_of_squares" lambda function with a list of numbers, and passing in each element individually as an argument. The lambda expression takes no arguments but returns a single value (the sum of squares of the given list).

@@ -1,0 +1,17 @@
+Gradient descent is an optimization algorithm that minimizes a function using iterative methods. It works by gradually updating the parameters of a machine learning model based on its gradient, which represents the slope of the function in direction of steepest increase in the loss function (also known as error). Gradient descent follows this approach iteratively:
+
+1. Calculate the gradients of the cost function with respect to each parameter's value using backpropagation through time (BPTT), which is a technique used in neural networks for updating parameters.
+
+2. Update the gradient accordingly.
+
+3. Take the current set of weights as input and run the model on the training data.
+
+4. Calculate the error or loss function using the predicted output and actual output.
+
+5. Calculate the gradient of the loss with respect to the parameters' values.
+
+6. Update each parameter by taking its gradient multiplied by a learning rate (the step size) and then scaling it by a momentum factor (0.9).
+
+7. Perform one iteration of the above process until convergence or the loss function does not change significantly after a certain number of iterations.
+
+Gradient descent can be used for both regression and classification problems, and it is commonly used in applications such as image classification, natural language processing, and speech recognition.

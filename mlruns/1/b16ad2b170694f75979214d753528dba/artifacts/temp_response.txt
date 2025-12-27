@@ -1,0 +1,7 @@
+The confusion matrix, also known as theReceiver Operating Characteristic (ROC) curve or area under the curve (AUC), is a diagram used to visualize how well a classifier or model performs on unlabeled data. It compares the true positive rate (i.e., the number of correctly labeled positives, also known as the true positives or true hits, against the false positive rate (FPR) and false negative rate (FNR)) for each possible classification.
+
+The confusion matrix is created by first identifying the two classes (positive and negative) and their corresponding labels (true and false). The confusion matrix then shows the number of times each class has been correctly classified (TN), how many times each class has been incorrectly classified as another one (FP+FN), and the total number of samples in each class.
+
+The ROC curve is a two-sided chart that displays the performance of the classifier on the positive samples versus the negative ones, where 0 represents no false positives, and 1 represents no false negatives. The area under this curve (AUC) measures the precision of the classifier's predictions.
+
+The confusion matrix is used to evaluate how well a classifier performs in distinguishing between two classes when there are two possible outcomes. It allows for a quick visual assessment of the performance, which can help in identifying areas that need improvement and in making informed decisions about how to optimize the model.

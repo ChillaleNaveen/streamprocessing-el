@@ -1,0 +1,17 @@
+To handle exceptions in Python, you can use try-except blocks to catch and handle any exceptions that may occur during execution. Here's an example code snippet that demonstrates how to create a function with try-except blocks:
+
+```python
+def function_with_try_except():
+    try:
+        # your code here
+    except Exception as e:
+        print("Exception:", e)
+
+# Calling the function with try-except blocks
+try:
+    function_with_try_except()
+except Exception as e:
+    print(f"{e!s}")
+```
+
+In this example, we've created a simple function that attempts to perform some operation, but if an exception occurs, the function catches and handles the exception. We then use try-except blocks to handle any exceptions that may occur during execution. If an exception is caught and handled, it prints the exception message to the console using the `f"{e!s}"` syntax, which includes the error message as a formatted string.

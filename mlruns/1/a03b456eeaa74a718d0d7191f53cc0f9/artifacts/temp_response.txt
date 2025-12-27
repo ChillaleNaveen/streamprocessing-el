@@ -1,0 +1,9 @@
+Sure, I'd be happy to explain the concept of Return on Investment (ROI) in a simple and concise way!
+
+ROI is a financial metric that measures the profitability of an investment by comparing it to the amount invested. It measures how much money or assets generated from a single dollar investment. The ROI calculation involves dividing the profits or returns on investments by the initial cost, and then multiplying it by 100%.
+
+In simple terms, an example of calculating ROI is:
+
+Suppose you invested $100 in a product that generated a return of $200 within a year. The ROI calculation would be: (($200 - $100) / $100) x 100 = ($200/100) * 100% = 36.67%. So, for this example, the investment has a positive ROI of 36.67%.
+
+In summary, ROI is calculated by dividing the profit or return on investments by the cost of investing. The higher the profit or return, the better the ROI. In essence, ROI helps to determine if an investment was profitable for the company.

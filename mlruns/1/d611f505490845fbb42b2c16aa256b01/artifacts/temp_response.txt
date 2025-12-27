@@ -1,0 +1,15 @@
+Lambda functions are a type of function in JavaScript that is defined as a block of code without the execution context (i.e., without return statements) enclosed inside parentheses. They are typically used for reusable, isolated logic. Here's an example of how to define and use a lambda function:
+
+```javascript
+const multiplyNumbers = (num1, num2) => {
+  if (num1 === null || num1 === undefined || num2 === null || num2 === undefined) {
+    throw new Error("Invalid input");
+  } else {
+    return num1 * num2;
+  }
+};
+```
+
+This function defines a lambda function `multiplyNumbers` with two arguments `num1` and `num2`. When called, it first checks if either argument is null or undefined (in the case of `num1`, this will be false and an error will be thrown), then invokes the `mul` function defined as a separate function in a block of code without any return statements. This creates a series of nested blocks that perform the multiplication operation, each one starting with a call to the `mul` function with the appropriate arguments.
+
+Lambda functions can also be used within other functions and returned as values or assigned to variables. They are primarily useful for creating reusable logic in JavaScript.

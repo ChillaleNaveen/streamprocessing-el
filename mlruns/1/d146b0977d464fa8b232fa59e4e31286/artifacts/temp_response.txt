@@ -1,0 +1,16 @@
+The confusion matrix is a graphical representation of the performance of an artificial neural network (ANN) or machine learning model on a set of labeled data. It is typically used to compare the accuracy of different models, identify which features are most important for predicting the target variable, and visualize how each classifier performs in terms of its ability to distinguish between the two classes. 
+
+The confusion matrix is constructed by dividing the total number of samples (in this case, 20) into two rows: one for the true positives (TPs), representing correctly predicted samples that are also labeled as positive (i.e., correct classification), and another for false negatives (FNs), representing incorrectly predicted samples that are not classified as negative.
+
+The cells in the confusion matrix represent the probability of a sample being classified as belonging to one of the two classes based on the model's predictions:
+
+| TP | FP | FN | Precision | Recall | F1 Score |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| TP  | FP  | FN | P                    | R | R |
+| FN  | TP  | FP  | R | P | F   |
+| TP  | FP  | FN  | P                    | R | R |
+| FN  | TP  | FP  | P                    | R | R |
+
+The first row represents true positives and includes both the correct classification as well as its likelihood of being a positive sample. The second row represents false negatives and includes all incorrectly predicted samples, which have a lower probability of being a positive one. The third row represents false positives and includes all correctly classified samples but with a higher probability of being negative ones.
+
+The confusion matrix is helpful in identifying the strengths and weaknesses of the model's performance, as well as in understanding how it performs on each classifier for a given dataset. It can also help in selecting the most effective model to use for specific tasks or applications based on the accuracy, precision, recall, F1 score, and other metrics.

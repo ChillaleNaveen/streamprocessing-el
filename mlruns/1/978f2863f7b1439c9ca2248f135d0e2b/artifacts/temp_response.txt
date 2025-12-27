@@ -1,0 +1,15 @@
+To sort a list in Python, you can use the built-in method `sorted()` which returns a new sorted copy of the original list. Here's an example:
+
+```python
+# Example 1: Sorting alphabetically
+my_list = [5, 2, 4, 1, 3]
+sort_list = sorted(my_list)
+print("Sorted list:", sort_list) # Output: [1, 2, 3, 4, 5]
+
+# Example 2: Sorting by integer value
+my_list = [2, 4, 6, 8, 10]
+sort_list = sorted(my_list, key=int)
+print("Sorted list:", sort_list) # Output: [4, 6, 8, 10, 2]
+```
+
+In both examples, the `sorted()` method is called with a list as its argument. The keys (or values if you're sorting by integers) will be integer objects instead of string or float values.

@@ -1,0 +1,16 @@
+A generator in Python is a type of object-oriented programming (OOP) construct that allows you to define functions with specific behavior and generate code dynamically, based on certain conditions or input values. Generators are designed to be efficient and memory-efficient, as they only create code once and then return it without storing any intermediate results.
+
+Here's an example of how a simple generator can be used in Python:
+
+```python
+def square_sum(n):
+    """
+    This function takes a number `n` as input and calculates the sum of all squares up to `n`.
+    """
+    for I in range(1, n+1):
+        yield i ** 2
+
+print(list(square_sum(5))) # Output: [1, 4, 9]
+```
+
+In this example, we've defined a function named `square_sum` that takes an input number as an argument and generates the sum of all squares up to that number using a generator. The `range()` function is used to generate the numbers from `1` to `5`. Once the function has finished its computation, it returns the list of calculated values, which we can then print out as an output. This generator-based approach is efficient and memory-efficient, allowing us to create code that only needs to be executed once without storing intermediate results.

@@ -1,0 +1,13 @@
+REST (Representational State Transfer) APIs are an architecture pattern that enables communication between web services using HTTP. These APIs follow the RESTful principles, which emphasize:
+
+1. Uniform interface: A single URL is used to access a resource on a server.
+
+2. Hypermedia as the engine of application state: Resource representations (e.g., JSON) are used for hypermedia links, allowing clients to navigate and retrieve data in an intuitive way.
+
+3. Client-oriented: APIs are designed with the client in mind, providing clear and easy-to-understand responses that align with their needs and expectations.
+
+4. Stateless: Web services are stateless, meaning they don't store or persist data between requests. This helps to reduce server load and improves performance.
+
+5. Concurrent: REST APIs can handle multiple requests simultaneously without blocking other requests.
+
+Overall, REST APIs provide a consistent and easy-to-understand way of accessing resources on the web, which is essential for modern web applications that require interoperability, scalability, and user experience.

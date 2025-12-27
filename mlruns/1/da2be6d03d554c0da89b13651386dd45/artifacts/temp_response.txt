@@ -1,0 +1,17 @@
+Yes, I can write a function to check whether a given number is prime or not in Python. Here's an example implementation:
+
+```python
+def is_prime(num):
+    """Checks if num is prime"""
+    # Base case: if num is 1 or 2, it's prime
+    if num == 1 or num == 2:
+        return True
+    
+    # Otherwise, check if any digit divides into the sum of its digits
+    for I in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+```
+
+The `is_prime` function takes a single argument `num`, which is a positive integer. It returns `True` if the number is prime, and `False` otherwise. The base case for checking prime numbers is when num is 1 or 2. For all other values of num, we check if any digit divides into its sum (ie. `(num % I) == 0`) to determine whether it's prime or not.

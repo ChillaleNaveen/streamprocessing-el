@@ -1,0 +1,41 @@
+To use regular expressions in Python, you can use the built-in `re` module or third-party libraries such as `regex` or `sre_utils`. Here are some examples:
+
+1. Basic Regular Expression Syntax:
+
+```python
+import re
+
+pattern = r"[a-zA-Z0-9_]+"  # matches alphabets, digits, and underscores
+print(re.match(pattern, "Hello World"))  # will print True since "Hello World" matches the pattern
+
+# or to match any character (not just letters and numbers):
+print(re.search(r"\w+", "Python is cool!").group())  # will print "P" since Python is cool! matches the pattern
+```
+
+2. Using a Pattern as a Function:
+
+```python
+import re
+
+def is_valid_email(email):
+    return re.match(r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", email)  # matches valid email format
+
+valid = is_valid_email("example@gmail.com")
+print(valid)  # will print True since email "example@gmail.com" matches the pattern
+```
+
+3. Using a Pattern with Grouping:
+
+```python
+import re
+
+def get_sum(numbers):
+    match = re.match(r"\d+", numbers[0])
+    return int(match.group()) + sum([int(x) for x in numbers])
+
+numbers = ["123", "456", "789"]
+result = get_sum(numbers)
+print(f"The sum of {len(numbers)} numbers is: {result}")  # will print "106" since the sum of [123, 456, 789] is 106
+```
+
+Note that regular expressions are not case-sensitive in Python. If you're using a pattern that requires capitalization (e.g., "Hello World"), you can use `re.IGNORECASE` to ignore case while matching the pattern.

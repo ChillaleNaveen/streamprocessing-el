@@ -1,0 +1,23 @@
+Yes, there is a built-in function in Python called `str.__reversed__()` that can be used to reverse the order of characters in a string. Here's how to implement it using the `string` module:
+
+```python
+def reversed_string(text):
+    """
+    Returns a reversed version of a given string
+    
+    Args:
+        text (str): The string to be reversed
+        
+    Returns:
+        str: Reversed string
+    """
+    return "".join(reversed(text))  # Convert to reversed string back
+```
+
+To use it, simply call the function with a string as an argument:
+
+```python
+my_string = "hello world"
+reverse_string = reversed_string(my_string)
+print(reverse_string)  # Outputs "olleh world desert"
+```

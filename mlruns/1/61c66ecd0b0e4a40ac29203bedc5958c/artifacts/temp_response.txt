@@ -1,0 +1,19 @@
+Sure, here's a function that finds duplicates in a list:
+
+```python
+def find_duplicates(lst):
+    # Initialize a set to store duplicate elements
+    duplicate_set = set()
+    
+    # Loop through the list and check if each element has not already been added to the set
+    for item in lst:
+        if item in duplicate_set:
+            continue  # If the item is already in the set, skip it
+        
+        # Add the item to the set if it's not already present
+        duplicate_set.add(item)
+    
+    return duplicate_set
+```
+
+In this function, we create a `set` object called `duplicate_set` to store duplicate elements. We initialize it with an empty set (`set()`) and then loop through the list `lst`, checking if each element is already in the `duplicate_set`. If it's already in the set, we skip it (continue) since we don't need to add it again. Once we've added all unique elements to the `duplicate_set`, we return the set.

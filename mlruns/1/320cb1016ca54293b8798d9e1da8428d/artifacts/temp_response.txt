@@ -1,0 +1,3 @@
+Overfitting in machine learning refers to the phenomenon where an algorithm or model becomes over-specialized and unable to generalize well, leading to poor performance on new data. In other words, it's a situation where the algorithm is not able to learn from enough data to capture the complexity of the underlying problem. Overfitting occurs when the training dataset is too small or when the size of the training dataset exceeds the model's capacity for learning.
+
+Overfitting can be prevented by using larger datasets and regularization techniques, such as l1 or l2 regularization, to prevent overfitting. By avoiding overfitting, algorithms become more general and able to perform better on new data, enabling them to achieve better performance in real-world applications.

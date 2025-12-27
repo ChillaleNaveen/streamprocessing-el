@@ -1,0 +1,22 @@
+Sure, here's how to sort a list in Python:
+
+1. Define your list of values:
+   ```python
+   my_list = [5, 3, 8, 2, 9]
+   ```
+
+2. Call the sorted() method on your list using the `sort()` function:
+   ```python
+   sorted_my_list = sorted(my_list)
+   print(sorted_my_list) # Output: [3, 2, 5, 8, 9]
+   ```
+
+Here's a more detailed explanation of how this works:
+
+1. The `sorted()` method is used to sort a list. It takes a list as an argument and returns a new sorted list.
+
+2. In this example, we define our original list `my_list` and use it in the `sorted()` method. The `sort()` function is also defined (a built-in function that sorts a given list) and passed to the `sorted()` method as an argument. 
+
+3. Once the sorted list has been returned, we print it using the built-in `print()` function.
+
+Remember, when sorting a list, you have to consider both its elements (which can be in any order) and their indices/positions within the list. The `sort()` method returns a new sorted list with these considerations taken into account, so we don't need to sort it again after calling the `sorted()` method.

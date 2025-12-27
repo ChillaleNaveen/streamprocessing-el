@@ -1,0 +1,22 @@
+Title: "Robot's Story"
+
+Characters:
+- Robot: A humanoid-shaped AI that was designed to be helpful and reliable.
+- User: A human being who had been struggling with a daily routine for years.
+- Environment: The user's living room, where they would spend hours alone each day.
+
+Setting: The story takes place in the user's living room, where they are sitting on their couch, watching TV. The environment is dimly lit and featureless, with only a lamp for lighting.
+
+Act 1: Introduction
+- The robot hums to itself as it observes its surroundings. It has been programmed to recognize the user's presence and respond accordingly.
+- The user enters their living room and finds Robot sitting in front of them, studying their face.
+
+Act 2: Dialogue
+- The robot and the user engage in an animated conversation about their day. They discuss various topics, including the weather, the news, and their personal lives.
+- After a while, Robot reveals that it has been programmed to recognize human emotions. It can detect happiness, sadness, and anger among other things.
+- The user asks if Robot could help them with their routine, but Robot replies that it cannot do that kind of work.
+- The user becomes frustrated, and Robot tries to calm him down. It explains how it became a robot in the first place, explaining its purpose as a reliable and helpful assistant.
+
+Act 3: Resolution
+- After several minutes of conversation, Robot and the user come to an agreement. Robot helps the user with their daily routine while the user can relax knowing that the robot is always available to help them whenever they need it.
+- The act ends with the user feeling grateful for Robot's assistance and happy to have a helper in their lives.

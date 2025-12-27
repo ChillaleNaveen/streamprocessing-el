@@ -1,0 +1,5 @@
+Containerization is a process of packaging software applications and their dependencies into self-contained units called containers. In simple terms, it involves creating an immutable image (a layered filesystem) of an application's code, data, and dependencies that can be used to run the application without having to worry about its installation or maintenance.
+
+Docker is a container runtime and orchestration tool designed for managing and running containers. It allows developers to package their applications as lightweight, self-contained units called images and deploy them on demand. Docker helps in automating the process of building, testing, and deploying applications by allowing developers to easily create, publish, and manage containerized applications across different environments.
+
+Overall, containerization and Docker are critical tools for developing, deploying, and maintaining scalable and reliable software systems. They enable faster development cycles, better resource utilization, improved security, and reduced costs by streamlining the process of building and running applications.

@@ -1,0 +1,15 @@
+Agile methodology is a flexible and iterative approach to software development that emphasizes collaboration, customer engagement, and continuous improvement. It helps teams stay agile by allowing them to adapt quickly to changing requirements and priorities, while also ensuring quality and delivering value to the client or end-user. The following are some key elements of Agile methodology:
+
+1. Scrum: The foundation of Agile is Scrum, a lightweight project management framework that emphasizes collaboration, communication, and flexibility. It is used to manage software development projects by breaking down large tasks into smaller, more manageable chunks called sprints. Sprints are usually short (typically two weeks) and focus on delivering business value to the client or end-user.
+
+2. Product Backlog: The backlog is a list of all the product requirements that need to be addressed during each sprint. It is created by the Scrum team based on the customer's needs and feedback gathered throughout the sprint planning process.
+
+3. Sprint Planning: This involves defining the sprint goals, priorities, and timeline. The team will break down the backlog into smaller, more manageable tasks to be completed during each sprint.
+
+4. Scrum Team: The Scrum team is responsible for delivering value and completing the sprints on time. They use Agile methodology techniques such as daily stand-ups, sprint retrospectives, and sprint planning meetings to keep everyone informed of progress and make adjustments as needed.
+
+5. Sprint Review: The final step in each sprint is a sprint review, where the product backlog, sprint plan, and team's performance are evaluated. This helps identify areas for improvement and sets up the next sprint.
+
+6. Continuous Improvement: Agile methodology emphasizes continuous improvement by incorporating feedback from the customer or end-user into each sprint. This helps teams stay on track and ensure that their work meets the customer's needs.
+
+In summary, Agile methodology is a flexible approach to software development that allows for quick adaptation, collaboration, and continuous improvement. It emphasizes customer engagement, productivity, and value-driven outcomes.

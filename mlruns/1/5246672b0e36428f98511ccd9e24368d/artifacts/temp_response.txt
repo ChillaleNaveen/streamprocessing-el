@@ -1,0 +1,27 @@
+Yes, I can provide you with a Python function that can find duplicates in a list. Here's an example usage:
+
+```python
+import functools
+
+def find_duplicates(lst):
+    # Define the 'is_dupe' function to check if a given element is a duplicate or not
+    def is_dupe(elem):
+        return elem in lst.duplicates()
+    
+    # Create a functor that returns True if a duplicate exists and False otherwise
+    duplicates = functools.reduce(lambda acc, cur: acc & ~isinstance(cur, list), lst, False)
+    
+    # Return the duplicates as a new list or None if no duplicates were found
+    return list(duplicates ? lst : []) if len(duplicates) > 0 else []
+```
+
+Here's an example usage:
+
+```python
+>>> find_dups(['a', 'b', 'c', 'a'])
+['a']
+>>> find_dups([1, 2, 3, 1])
+[1]
+>>> find_dups(["apple", "banana", "orange"])
+[]
+```

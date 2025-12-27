@@ -1,0 +1,24 @@
+Yes, here's a solution for finding duplicates in a list using Python. Here's an example usage and function signature:
+
+```python
+def get_duplicates(lst):
+    """
+    Returns a list of duplicate elements from the provided list.
+    
+    Args:
+        lst (list): The list containing duplicates to search for.
+        
+    Returns:
+        A new list with all unique elements.
+    """
+    return [x for x in lst if x not in set(lst)]  # Remove duplicate elements and only keep unique ones
+```
+
+Here's how to use it:
+
+```python
+>>> my_list = ["apple", "banana", "pear", "orange", "apple"]
+>>> duplicates = get_duplicates(my_list)  # Get duplicates from the list using the function above
+>>> print(duplicates)  # Print the unique elements from the list with duplicates removed
+['apple']
+```

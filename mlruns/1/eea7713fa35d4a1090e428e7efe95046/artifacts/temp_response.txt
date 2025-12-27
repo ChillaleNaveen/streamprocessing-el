@@ -1,0 +1,23 @@
+In Python, you can use the built-in `sorted()` function to sort a list based on specific criteria. Here's how to do it:
+
+1. First, define a function that takes a list as input and returns a sorted version of that list:
+
+```python
+def sort_list(lst):
+    return sorted(lst)
+```
+
+2. Then, call the `sort_list` function on your original list:
+
+```python
+my_list = [1, 2, 3, 4]
+sorted_list = sort_list(my_list)
+print(sorted_list)  # Output: [1, 2, 3, 4]
+```
+
+This will print the sorted version of your original list. You can also pass multiple arguments to `sort_list` and it will return a sorted list for each argument:
+
+```python
+my_lists = [(lst, sort_list(lst)) for lst in my_lists]
+print(my_lists)  # Output: [(([1], [1]), ([2], [2])), (([3], [3]), ([4], [4]))]
+```

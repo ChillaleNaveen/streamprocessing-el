@@ -1,0 +1,7 @@
+Gravity, also known as the gravitational force or gravitational pull, is a scientific concept that describes the force between two objects in space that is exerted by an object's mass (mass density) and the earth's gravity. Gravity is based on the principle of inertia, which states that objects remain at rest or moving at rest unless acted upon by an external force.
+
+In physics, gravity is a fundamental force that acts between two bodies, such as two objects with different masses, that are not in direct motion with one another. When an object falls toward another object, the forces acting on the two objects are due to both the earth's gravitational field and the mass of the falling object.
+
+The strength of gravity depends on a combination of factors, including the masses of the two objects, their distance from each other, and the shape and mass distribution of the earth. The Earth's gravity is strongest at its surface, while it is weakest near the center of the planet, where it is affected by the Sun's gravitational pull.
+
+The concept of gravity is important in various fields such as physics, astronomy, geology, and engineering, as it provides a fundamental force that can be observed and measured in nature. It has been used to study topics such as the structure of galaxies and the evolution of the universe, as well as to explore the properties of matter and the nature of space itself.

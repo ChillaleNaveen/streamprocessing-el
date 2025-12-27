@@ -1,0 +1,23 @@
+Gradient descent is an optimization algorithm that involves finding the direction of steepest descent or gradual decline in a function using stochastic gradients. In essence, it works by iteratively updating each weight (or parameter) in the model based on its gradient, which measures the change in the loss function (or objective function) as a result of changing that parameter.
+
+Here's how gradient descent works:
+
+1. Define a learning rate or momentum factor (as per the hyperparameter configuration), and set the initial iterate to zero.
+
+2. Generate a gradient vector for each weight in the model, which represents the direction of steepest descent or gradual decline in the loss function.
+
+3. Calculate the sum of squared weights, i.e., the negative gradient of the loss function:
+
+  ```math
+  \text{sum}(w^T g) = -<W, g>
+  ```
+
+4. Iteratively update each weight by the following rule:
+
+  ```math
+  w_{t+1} = w_t - \eta\frac{\partial}{\partial w}\sum_{i=1}^n (y_i - h(x_i))g_i
+  ```
+
+where `w_t` is the initial iterate, `h(x)` is the function to be optimized, and `g` represents the gradient. The learning rate (or momentum) determines how quickly the update occurs at each iteration: `eta` is a hyperparameter to set for stochastic gradient descent.
+
+Gradient descent converges to a local minimum or maximum of the objective function as long as the weights remain within their bounds, and if the input data satisfies certain assumptions on the function's shape, gradients, and initialization. Gradient descent is used in many popular machine learning algorithms, such as the gradient descent algorithm for optimization problems.

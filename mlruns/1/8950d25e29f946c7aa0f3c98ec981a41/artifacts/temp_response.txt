@@ -1,0 +1,5 @@
+Object-oriented programming (OOP) is a way of structuring data and algorithms in a software application to enable them to work together and interact with each other. It's based on the concept that objects, or entities, have attributes (properties), behaviors (methods), and relationships to other objects. This can be visualized as a tree-like structure where objects are nested under one another.
+
+With OOP, developers create classes that define the properties and behaviors of their objects. These classes are designed to be independent from each other, which allows them to work together in a single application or library. They also provide a way to handle exceptions, errors, and input validation for better user experience. 
+
+In summary, OOP helps to create modular and reusable software by organizing data, algorithms, and behavior into objects that can communicate with each other.

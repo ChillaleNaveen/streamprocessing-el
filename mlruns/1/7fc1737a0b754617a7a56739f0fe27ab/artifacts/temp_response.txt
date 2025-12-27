@@ -1,0 +1,5 @@
+REST (or Representational State Transfer) is an architectural style and protocol that allows applications to communicate with one another using a consistent, machine-readable format. It's also known as the "Hypertext Transfer Protocol, Applications" or HTTP/1.1, and it's based on the Web’s HTTP (hypertext transfer protocol) protocol.
+
+REST APIs define resources and operations that allow clients to communicate with servers. Resources are identified by their unique identifiers (UUIDs), while operations represent requests and responses for accessing and updating data. REST APIs typically follow a consistent format, such as JSON, XML or HTML, which makes it easy to understand, interpret, and integrate into various applications.
+
+REST APIs also provide clients with the ability to specify the desired content type (e.g., application/json) for each response, enabling applications to handle data in a variety of formats. This makes REST APIs well-suited for integrating different systems and applications, regardless of their underlying format or data structure.

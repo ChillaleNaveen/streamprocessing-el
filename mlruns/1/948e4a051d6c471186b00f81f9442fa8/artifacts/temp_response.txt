@@ -1,0 +1,7 @@
+Encryption works by breaking down or converting a message into an unreadable form before sending it over a network. This process involves two steps:
+
+1. Encrypting the message: The first step is to convert the plaintext (i.e., the original text) into ciphertext using a mathematical algorithm, such as the encryption algorithm in use.
+
+2. Decrypting the ciphertext: Once the encrypted message has been created, it needs to be decrypted. This process involves a reverse transformation that takes the ciphertext and converts it back into plaintext.
+
+To summarize, encryption is a way of converting text or data into an unreadable format before transmitting it over a network, while decryption involves restoring the original text or data from the encrypted form.

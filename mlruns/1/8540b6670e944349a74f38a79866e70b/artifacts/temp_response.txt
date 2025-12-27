@@ -1,0 +1,10 @@
+To sort a list in Python, you can use the sorted() function as follows:
+
+```python
+import random
+
+numbers = [random.randint(0, 10) for _ in range(5)]
+print(sorted(numbers)) # Output: [3, 4, 5, 6, 7]
+```
+
+In this example, we've created a list of integer values between 3 and 7 inclusive. We then call the `sorted()` function on it using the `[range(n)]` syntax. This creates an iterable object that can be sorted using the `sorted()` method by passing in a comprehension expression that selects every element from the original list, and sorts it based on the corresponding index position. I hope this helps! Let me know if you have any more questions.

@@ -1,0 +1,11 @@
+Design patterns in software refer to general patterns or methods for designing and building complex systems, applications, or software components. Design patterns provide a common framework and approach for solving specific problems that arise frequently in software development, allowing developers to reuse existing solutions and avoid reinventing the wheel each time they need to create new functionality. Design patterns are commonly used in the following areas:
+
+1. Structure and organization: They help to define and organize complex systems or applications into reusable components, which can be easily modified, extended, and customized according to specific needs.
+
+2. Behavior and workflows: They provide a consistent way of describing, reasoning about, and implementing certain behaviors and workflows in software.
+
+3. Dependency injection: They help to keep dependencies between components (e.g., code modules) separate and manageable, enabling component-based design and reducing the risk of system failure due to dependency conflicts.
+
+4. Templates and patterns: They provide a way to easily reuse certain solutions or patterns in various contexts, such as web applications, databases, or mobile apps.
+
+5. High-level abstractions: They help to abstract complex concepts or problems from the details of specific technologies (e.g., database APIs) and make them easier to understand and use by other software developers.

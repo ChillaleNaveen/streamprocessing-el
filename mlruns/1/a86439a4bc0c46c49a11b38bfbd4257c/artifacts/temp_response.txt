@@ -1,0 +1,60 @@
+Sure! Here's how to use regular expressions in Python:
+
+1. Import the re module:
+
+```python
+import re
+```
+
+2. Create a pattern string using the regex syntax:
+
+```python
+pat = r"[a-z]+" # matches any single letter
+```
+
+3. Apply the pattern to a string:
+
+```python
+s = "hello world"
+result = re.findall(pat, s) # find all matches in s
+print(result)
+```
+
+4. Print each match:
+
+```python
+for m in result:
+    print(m)
+```
+
+5. Replace the matches with a different string:
+
+```python
+s = re.sub(pat, "newtext", s) # replace all matches with newtext
+print(s)
+```
+
+6. Explore the results using a for loop or list comprehension:
+
+```python
+for m in result:
+    print(m)
+```
+
+7. Use a generator expression instead of a list comprehension:
+
+```python
+for match in re.findall(pat, s):
+    print(match)
+```
+
+8. Combine regular expressions with other techniques to achieve your desired output:
+
+```python
+import string
+
+pattern = re.compile("[a-zA-Z]+")
+text = "This is a test"
+matches = pattern.findall(text) # find all matches in text
+print(matches)
+```

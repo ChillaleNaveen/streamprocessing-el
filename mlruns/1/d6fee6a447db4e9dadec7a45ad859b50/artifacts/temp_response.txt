@@ -1,0 +1,9 @@
+The human immune system is a complex network of cells, tissues, and organs that are designed to protect the body from infection, disease, and other threats. The immune system consists of several different types of cells and molecules, including B cells (antibodies), T cells (T-cells), macrophages, dendritic cells, and natural killer (NK) cells.
+
+The human immune system functions by recognizing and responding to foreign bodies or abnormal changes in the body. When a pathogen, such as a virus or bacterium, enters the body, it is recognized by the immune system as an "invader." This invader will trigger the immune system to release inflammatory chemicals (such as cytokines and chemokines) into the bloodstream. These chemicals stimulate T cells and other immune effector cells to leave the affected tissue and move towards the site of infection, where they engage in a series of interactions with the pathogen.
+
+Once the pathogen is engaged by the immune system, it will undergo several stages of differentiation, known as "adaptation." During this process, the pathogen may become "differentiated," which means that it has undergone specific changes that allow it to evade or escape the immune response. This is why some infections can be so difficult to treat, because they have developed a way to evade the immune system's efforts to destroy them.
+
+Once the pathogen has become adapted, it may then undergo "migration," which means that the immune system will target specific cells or tissues at the site of infection. This is why symptoms such as fever, chills, and fatigue can occur after a person has recovered from an infection caused by a virus or bacteria.
+
+Overall, the human immune system is designed to protect the body against infectious disease threats by identifying and attacking foreign bodies, adapting to these pathogens, and targeting specific cells or tissues that have been exposed to an infection.

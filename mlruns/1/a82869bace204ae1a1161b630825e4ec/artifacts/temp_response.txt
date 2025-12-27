@@ -1,0 +1,32 @@
+Sure, here's a Python function that finds duplicates in a list:
+
+```python
+def find_duplicates(lst):
+    # Initialize the set of duplicates with an empty set
+    duplicates = set()
+    
+    # Iterate over each element in the list and check for duplicates
+    for elem in lst:
+        # If the element already exists in the set, add it to the set again
+        if elem in duplicates:
+            duplicates.add(elem)
+        
+    # Return a list of duplicate elements found in the list
+    return list(duplicates)
+```
+
+Here's how to use the function with some example inputs:
+
+```python
+# Example 1: Empty list
+list1 = []
+print(find_duplicates(list1))  # Output: []
+
+# Example 2: List of duplicates
+lst1 = [1, 2, 3, 4, 5]
+print(find_duplicates(lst1))  # Output: [1, 2, 3, 4]
+
+# Example 3: List with duplicate elements
+lst2 = [1, 2, "a", "b"]
+print(find_duplicates(lst2))  # Output: ['a', 'b']
+```

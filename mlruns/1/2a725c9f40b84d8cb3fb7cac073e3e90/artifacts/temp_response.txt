@@ -1,0 +1,8 @@
+Sure! A lambda function is a type of programming construct in the context of functional programming languages like Haskell and Elm, where it defines a function without any parameters. It can be used to perform computations or perform actions based on specific conditions or criteria. Here's an example:
+
+```haskell
+add :: Int -> Int -> Int
+add x y = x + y
+```
+
+In this function, `x` and `y` are the arguments that will be passed to the function, and `+` is the operation used on those arguments. In this context, it's equivalent to using a "lambda" operator to define a function without any parameters.

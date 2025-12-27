@@ -1,0 +1,9 @@
+To sort a list in Python, you can use the built-in sorted() method:
+
+```python
+my_list = ['apple', 'banana', 'cherry']
+sorted(my_list) # Returns sorted list without duplicates
+sorted(my_list, key=lambda x: x.lower()) # Sorts list with lowercase letters only
+```
+
+In the first example, we've used `sorted()` to sort a list using a lambda function that returns the word lowercased as its element value. In the second example, we've used the `key` parameter to pass a lambda function that returns the same word in lowercase for sorting purposes. The sorted() method will return a new list with the elements sorted in ascending order.

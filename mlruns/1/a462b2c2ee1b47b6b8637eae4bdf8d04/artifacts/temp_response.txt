@@ -1,0 +1,7 @@
+There is no one-to-one correspondence between artificial intelligence (AI) and machine learning (ML), as they are both subsets of the broader field of data science. Here's a brief explanation of each term in greater detail:
+
+Artificial Intelligence (AI): AI is a subset of data science that focuses on building intelligent machines, including physical, virtual, and augmented reality applications. It involves developing algorithms, systems, and software that can process and understand large amounts of data to perform tasks for which humans are typically skilled. An example of an AI application could be self-driving cars or chatbots.
+
+Machine Learning (ML): ML is a subfield of AI that focuses on learning from data without explicitly coding or programming it. It involves creating algorithms to analyze and make decisions based on vast amounts of historical data. ML can help us identify patterns, make predictions, and even generate insights for future business opportunities. An example of an ML application could be predicting stock prices or recommending products.
+
+In summary, AI is the study of computer systems that can think and reason like humans do, while ML is the process of applying algorithms to data to uncover patterns and insights.

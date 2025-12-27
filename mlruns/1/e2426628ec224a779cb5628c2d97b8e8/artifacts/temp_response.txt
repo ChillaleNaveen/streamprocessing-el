@@ -1,0 +1,7 @@
+Agile methodology is a set of principles and practices that aim to deliver high-quality software products in an iterative, incremental, and customer-centric manner. It is based on the concept of "agile" and "scrum," which refer to project management techniques. Agile methodology emphasizes collaboration, flexibility, and continuous improvement by breaking down tasks into smaller, more manageable units called "sprints." These sprints are typically 2-4 weeks in length and are designed to develop software products rapidly.
+
+During each sprint, teams work on a specific feature or aspect of the project, collaborating closely with other team members through daily meetings, standup sessions, and sprint planning sessions. Agile methodology also emphasizes testing and quality assurance during development, as well as continuous integration and deployment (CI/CD) techniques to ensure that code is continuously tested and deployed in a timely manner.
+
+Agile methodology promotes collaboration between team members, creating an environment where everyone has an equal voice and input into the project. This ensures that the product is delivered with high quality and customer satisfaction. Agile methodology also encourages open communication among team members to address issues and resolve conflicts as they arise.
+
+In summary, agile methodology is a flexible, iterative, and customer-centric software development approach that prioritizes collaboration, flexibility, and continuous improvement.

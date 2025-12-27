@@ -1,0 +1,7 @@
+Object-oriented programming (OOP) is a programming paradigm that emphasizes the use of classes and objects to model real-world entities and relationships, providing a structured way to code complex systems. OOP allows for the creation of modular, reusable, and encapsulated code that can be easily understood and maintained by others.
+
+In OOP, an object is defined as a collection of attributes and behaviors, which are typically represented using data types (such as integers or strings) and methods (functions). These objects are created, modified, and destroyed in response to user interactions through a set of encapsulated code that allows for reuse and flexibility.
+
+An example of how OOP can be applied in real-world scenarios is in software development. In this context, an object could represent a database table or a set of web pages, each with its own attributes, behaviors, and representations. The program would define methods to read data from the table or access web content, and these methods could be encapsulated into classes that inherit from one another. This allows for reuse of code in different contexts without having to change the implementation details.
+
+In summary, object-oriented programming is a design paradigm that enables the creation of modular, reusable, and encapsulated code that can be easily understood and maintained by others.
